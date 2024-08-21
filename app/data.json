@@ -1,0 +1,742 @@
+[
+  {
+    "id": 1,
+    "question": "Quel mot clé permet de déclarer une variable modifiable en JavaScript ?",
+    "options": ["string", "const", "number", "let", "aucune de ces réponses"],
+    "answer": "let"
+  },
+  {
+    "id": 2,
+    "question": "Quel mot clé permet de déclarer une variable non modifiable en JavaScript ?",
+    "options": ["number", "let", "const", "string", "aucune de ces réponses"],
+    "answer": "const"
+  },
+  {
+    "id": 3,
+    "question": "Quelle fonction permet d'afficher la valeur d'une variable dans le terminal ?",
+    "options": [
+      "write()",
+      "display()",
+      "var.log()",
+      "console.log()",
+      "aucune de ces réponses"
+    ],
+    "answer": "console.log()"
+  },
+  {
+    "id": 4,
+    "question": "Parmi les commandes suivantes, laquelle permet d'exécuter un script dans le terminal ?",
+    "options": [
+      "node run script",
+      "node",
+      "node mon-fichier.js",
+      "aucune de ces réponses"
+    ],
+    "answer": "node mon-fichier.js"
+  },
+  {
+    "id": 5,
+    "question": "Parmi les opérateurs mathématiques suivants, lequel permet d'effectuer une multiplication ?",
+    "options": ["*", "x", "/", "%", "aucune de ces réponses"],
+    "answer": "*"
+  },
+  {
+    "id": 6,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet num;\nnum = 5;\nconsole.log(num);",
+    "options": ["num", "undefined", "null", "5", "aucune de ces réponses"],
+    "answer": "5"
+  },
+  {
+    "id": 7,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet a = 10;\na = 10 + 2;\nconsole.log('a');",
+    "options": ["a", "10", "12", "102", "undefined", "aucune de ces réponses"],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'Hello';\nconst len = str.length;\nconsole.log(len);",
+    "options": [
+      "len",
+      "5",
+      "6",
+      "Hello",
+      "undefined",
+      "aucune de ces réponses"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 9,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = '100';\nconst number = 5;\nconsole.log(number + str);",
+    "options": ["100", "105", "5100", "1005", "aucune de ces réponses"],
+    "answer": "5100"
+  },
+  {
+    "id": 10,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'bienvenue au reacteur';\nif (str === 'Bienvenue au Reacteur') {\n  console.log(true);\n} else {\n  console.log(false);\n}",
+    "options": [
+      "Bienvenue au Reacteur",
+      "true",
+      "false",
+      "true et false",
+      "aucune de ces réponses"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 11,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str1 = \"Hello\";\nconst str2 = \" \";\nconst str3 = \"World\";\nconst fullStr = str1 + str2 + str3.toUpperCase();\nconsole.log(fullStr);",
+    "options": [
+      "HELLO WORLD",
+      "Hello WORLD",
+      "HelloWORLD",
+      "Hello World",
+      "aucune de ces réponses"
+    ],
+    "answer": "Hello WORLD"
+  },
+  {
+    "id": 12,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"abcd\" + e;\nconsole.log(str);",
+    "options": ["abcde", "'abcd'e", "abcd", "e", "aucune de ces réponses"],
+    "answer": "une erreur"
+  },
+  {
+    "id": 13,
+    "question": "Parmi les propositions suivantes, laquelle est une méthode permettant de renvoyer un caractère d'une chaîne de caractères ?",
+    "options": [
+      "stringAt",
+      "stringChar",
+      "charAt",
+      "charString",
+      "aucune de ces réponses"
+    ],
+    "answer": "charAt"
+  },
+  {
+    "id": 14,
+    "question": "Parmi les propositions suivantes, laquelle est une propriété permettant d'obtenir la longueur d'une chaîne de caractères ?",
+    "options": [
+      "length",
+      "full",
+      "fullString",
+      "stringLength",
+      "aucune de ces réponses"
+    ],
+    "answer": "length"
+  },
+  {
+    "id": 15,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Hello\";\nfor (let i = 0; i < 10; i++) {\n  console.log(i);\n}",
+    "options": [
+      "les nombres de 0 à 9",
+      "les nombres de 0 à 10",
+      "les lettres du mot \"Hello\", de H à o",
+      "les lettres du mot \"Hello\", de o à H",
+      "aucune de ces réponses"
+    ],
+    "answer": "les nombres de 0 à 9"
+  },
+  {
+    "id": 16,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Albert\";\nfor (let i = 0; i < firstName.length; i++) {\n  console.log(firstName.charAt(i));\n}",
+    "options": [
+      "les lettres A, l, b, e, r, t",
+      "les lettres t, r, e, b, l, A",
+      "les lettres A, l, b, e, r",
+      "les lettres t, r, e, b, l",
+      "aucune de ces réponses"
+    ],
+    "answer": "les lettres A, l, b, e, r, t"
+  },
+  {
+    "id": 17,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Tom\";\nconst displayName = (firstName) => {\n  console.log(\"firstName\");\n};",
+    "options": [
+      "Tom",
+      "firstName",
+      "displayName",
+      "rien",
+      "aucune de ces réponses"
+    ],
+    "answer": "firstName"
+  },
+  {
+    "id": 18,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (a, b) => {\n  const total = a - b;\n  return total;\n};\nconst result = sub(3, 1);\nconsole.log(result);",
+    "options": ["4", "2", "-2", "aucune de ces réponses"],
+    "answer": "2"
+  },
+  {
+    "id": 19,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (num1, num2) => {\n  let result = num1 - num2;\n};\nconst a = 20;\nconst b = 10;\nconsole.log(sub(b, a));",
+    "options": ["10", "-10", "20", "aucune de ces réponses"],
+    "answer": "undefined"
+  },
+  {
+    "id": 20,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Reacteur\";\nconst displayLetters = (str) => {\n  return str;\n};\ndisplayLetters(str);",
+    "options": [
+      "une erreur",
+      "Reacteur",
+      "undefined",
+      "aucune de ces réponses"
+    ],
+    "answer": "Reacteur"
+  },
+  {
+    "id": 21,
+    "question": "D'après le code suivant, combien de $ affichera le terminal ?\n\nconst generateMoney = (num) => {\n  let str = \"\";\n  for (let i = 0; i <= num; i++) {\n    str = str + \"$\";\n  }\n  return str;\n};\nconsole.log(generateMoney(5));",
+    "options": ["0", "4", "5", "6", "+de6", "aucune de ces réponses"],
+    "answer": "6"
+  },
+  {
+    "id": 22,
+    "question": "Qu'affichera le terminal ?\n\nconst generateToken = (num) => {\n  let str = \"\";\n  if (num < 0) {\n    str += \"$\";\n  } else if (num >= 0) {\n    str += \"€\";\n  } else if (num > 2) {\n    str += \"#\";\n  }\n  return str;\n};\nconsole.log(generateToken(3));",
+    "options": [
+      "$",
+      "€",
+      "#",
+      "$et€",
+      "$et#",
+      "€et#",
+      "aucune de ces réponses"
+    ],
+    "answer": "€"
+  },
+  {
+    "id": 23,
+    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour déclencher un retour à la ligne dans le terminal ?",
+    "options": [
+      "/",
+      "\\",
+      "/n",
+      "\\n",
+      "//n",
+      "\\\\n",
+      "aucune de ces réponses"
+    ],
+    "answer": "\\n"
+  },
+  {
+    "id": 24,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconsole.log(\"ab\" + \"?\" + \"cd\");\nconsole.log(10 % 5);",
+    "options": ["0 1", "2", "5", "10", "20", "10%5", "aucune de ces réponses"],
+    "answer": "0"
+  },
+  {
+    "id": 25,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Le Reacteur\";\nconst result = str.indexOf(\"A\");\nconsole.log(result);",
+    "options": ["0", "1", "5", "6", "-1", "aucune de ces réponses"],
+    "answer": "-1"
+  },
+  {
+    "id": 26,
+    "question": "Parmi les console.log() suivants, lequel permettrait d'afficher \"Bienvenue au Reacteur\" dans le terminal ?",
+    "options": [
+      "console.log(`#{str} au #{name}`);",
+      "console.log(`%{str} au %{name}`);",
+      "console.log(`\\{str} au \\{name}`);",
+      "console.log(`${str} au ${name}`);",
+      "console.log(`€{str} au €{name}`);",
+      "console.log(`/{str} au /{name}`);",
+      "aucune de ces réponses"
+    ],
+    "answer": "console.log(`${str} au ${name}`);"
+  },
+  {
+    "id": 27,
+    "question": "Parmi les propositions suivantes, laquelle permet de créer une fonction ?",
+    "options": [
+      "const func => {}",
+      "const () func => {}",
+      "const func {} => ()",
+      "const func () => return",
+      "aucune de ces réponses"
+    ],
+    "answer": "aucune de ces réponses"
+  },
+  {
+    "id": 28,
+    "question": "D'après le code suivant, combien de * affichera le terminal ?\n\nfor (let i = 0; i < 4; i++) {\n  for (let j = 0; j < 2; j++) {\n    console.log(\"*\");\n  }\n}",
+    "options": ["0", "2", "4", "8", "12", "16", "aucune de ces réponses"],
+    "answer": "8"
+  },
+  {
+    "id": 29,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 5; j++) {\n    str = str + \"-\";\n  }\n  str = str + \"X\";\n}\nconsole.log(str);",
+    "options": [
+      "-----X-----X-----X",
+      "XXXXX-XXXXX-XXXXX-",
+      "---X---X---X---X---X",
+      "XXX-XXX-XXX-XXX-XXX-",
+      "-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X",
+      "aucune de ces réponses"
+    ],
+    "answer": "-----X-----X-----X"
+  },
+  {
+    "id": 30,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst evenOdd = (num) => {\n  let result = num % 2;\n  if (result !== 0) {\n    return \"odd\";\n  } else {\n    return \"even\";\n  }\n};\nconsole.log(evenOdd(5));",
+    "options": ["odd", "even", "une erreur", "aucune de ces réponses"],
+    "answer": "odd"
+  },
+  {
+    "id": 31,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[4]);",
+    "options": ["a", "b", "c", "d", "e", "f", "aucune de ces réponses"],
+    "answer": "e"
+  },
+  {
+    "id": 32,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[10]);",
+    "options": [
+      "une des lettres du tableau",
+      "undefined",
+      "une erreur",
+      "aucune de ces réponses"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 33,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst numbers = [3, 2, 1, 0];\nnumbers.push(4);\nconsole.log(numbers);",
+    "options": ["[4,3,2,1,0]", "[3,2,1,0,4]", "4", "aucune de ces réponses"],
+    "answer": "[3,2,1,0,4]"
+  },
+  {
+    "id": 34,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = indexOf(\"snake\");\nconsole.log(num);",
+    "options": ["0", "-1", "une erreur", "aucune de ces réponses"],
+    "answer": "une erreur"
+  },
+  {
+    "id": 35,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = animals.indexOf(\"dog\");\nconsole.log(num);\nconst animals = [\"cat\", \"frog\", \"dog\"];\nconst popped = animals.pop();\nconsole.log(popped);",
+    "options": [
+      "dog",
+      "cat frog",
+      "['cat', 'frog']",
+      "['dog']",
+      "aucune de ces réponses"
+    ],
+    "answer": "['dog']"
+  },
+  {
+    "id": 36,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst names = [\"Paris\", \"Farid\", \"Xavier\", \"Reacteur\"];\nconst sentence = names.join(\" \");\nconsole.log(sentence);",
+    "options": [
+      "Paris-Farid-Xavier-Reacteur",
+      "Paris Farid Xavier Reacteur",
+      "ParisFaridXavierReacteur",
+      "Paris,Farid,Xavier,Reacteur",
+      "aucune de ces réponses"
+    ],
+    "answer": "Paris Farid Xavier Reacteur"
+  },
+  {
+    "id": 37,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [5, 20, 4, 12, 1];\nconsole.log(tab.sort());",
+    "options": [
+      "[12,1,20,4,5]",
+      "[1,4,5,12,20]",
+      "[1,12,20,4,5]",
+      "[5,4,20,12,1]",
+      "aucune de ces réponses"
+    ],
+    "answer": "[1,12,20,4,5]"
+  },
+  {
+    "id": 38,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = array => {\n  array.sort().shift();\n  return array;\n};\nconsole.log(func([\"c\", \"a\", \"b\"]));",
+    "options": [
+      "['a', 'b', 'c']",
+      "['c', 'b', 'a']",
+      "['a', 'b']",
+      "['b', 'c']",
+      "['c', 'a']",
+      "aucune de ces réponses"
+    ],
+    "answer": "['b', 'c']"
+  },
+  {
+    "id": 39,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = (str1, str2) => {\n  return str1;\n  return str2;\n};\nconsole.log(func(\"Hello\", \"World\"));",
+    "options": [
+      "Hello",
+      "World",
+      "Hello et World",
+      "undefined",
+      "aucune de ces réponses"
+    ],
+    "answer": "Hello"
+  },
+  {
+    "id": 40,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconst newArray = fruits.slice(0, 3);\nconsole.log(newArray);",
+    "options": [
+      "['Apple', 'Strawberry', 'Banana']",
+      "['Apple', 'Strawberry', 'Banana', 'Lemon']",
+      "['Lemon', 'Watermelon']",
+      "['Watermelon']",
+      "aucune de ces réponses"
+    ],
+    "answer": "['Apple', 'Strawberry', 'Banana']"
+  },
+  {
+    "id": 41,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  return tab[1];\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
+    "options": [
+      "Apple",
+      "Strawberry",
+      "['Apple']",
+      "['Strawberry']",
+      "['Apple', 'Strawberry', 'Banana', 'Lemon', 'Watermelon']",
+      "aucune de ces réponses"
+    ],
+    "answer": "Strawberry"
+  },
+  {
+    "id": 42,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  const popped = tab.pop();\n  return;\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
+    "options": [
+      "Watermelon",
+      "['Strawberry', 'Banana', 'Lemon', 'Watermelon']",
+      "['Watermelon']",
+      "['Apple', 'Strawberry', 'Banana', 'Lemon']",
+      "['Apple']",
+      "aucune de ces réponses"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 43,
+    "question": "D'après le code suivant, combien de * affichera le terminal ?\n\nconst displayStars = (str, num) => {\n  let stars = \"\";\n  for (let i = 0; i < num; i++) {\n    stars = stars + str;\n  }\n  return stars;\n};\nconsole.log(displayStars(\"**\", 3));",
+    "options": ["0", "2", "3", "4", "6", "+de6", "aucune de ces réponses"],
+    "answer": "6"
+  },
+  {
+    "id": 44,
+    "question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) !== \"e\") {\n      counter++;\n    }\n  }\n  return counter;\n};\nconsole.log(countLetters(\"Reacteur\"));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "+de8",
+      "aucune de ces réponses"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 45,
+    "question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) === \"e\") {\n      counter++;\n      return counter;\n    }\n  }\n};\nconsole.log(countLetters(\"Le Reacteur\"));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "+de11",
+      "aucune de ces réponses"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 46,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 2; i++) {\n  str = str + \"X\";\n  for (let j = 0; j < 4; j++) {\n    str = str + \"-\";\n  }\n}\nconsole.log(str);",
+    "options": [
+      "X-X-X-X-X-X-X-X-",
+      "--XXXX--XXXX",
+      "XX----XX----",
+      "----X----X",
+      "X----X----",
+      "aucune de ces réponses"
+    ],
+    "answer": "X----X----"
+  },
+  {
+    "id": 47,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x !== y) {\n  console.log(\"A\");\n} else if (x >= y) {\n  console.log(\"B\");\n} else if (y <= 3) {\n  console.log(\"C\");\n}",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "AetB",
+      "AetC",
+      "BetC",
+      "A,BetC",
+      "aucune de ces réponses"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x === 5 || y !== 5) {\n  console.log(\"A\");\n}\nif (x < 10 && y < 10) {\n  console.log(\"B\");\n}\nif ((x === 6 && y === 3) || x === y) {\n  console.log(\"C\");\n}",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "AetB",
+      "AetC",
+      "BetC",
+      "A,BetC",
+      "aucune de ces réponses"
+    ],
+    "answer": "A,BetC"
+  },
+  {
+    "id": 49,
+    "question": "Parmi ces propositions, laquelle permet de connaître le type d'une variable ?",
+    "options": [
+      "kindof",
+      "kindOf",
+      "typeOf",
+      "typeof",
+      "foreach",
+      "forEach",
+      "aucune de ces réponses"
+    ],
+    "answer": "typeof"
+  },
+  {
+    "id": 50,
+    "question": "Quelle méthode applicable à un tableau permet de supprimer le 1er élément du tableau ?",
+    "options": [
+      "unshift()",
+      "shift()",
+      "push()",
+      "pop()",
+      "reverse()",
+      "aucune de ces réponses"
+    ],
+    "answer": "shift()"
+  },
+  {
+    "id": 51,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetInterval(() => {\n  console.log(\"Hello World\");\n}, 3000);",
+    "options": [
+      "\"Hello World\" après 3 secondes",
+      "\"Hello World\" après 3 minutes",
+      "\"Hello World\" 3 fois",
+      "\"Hello World\" toutes les 3 secondes",
+      "\"Hello World\" toutes les 3 minutes",
+      "aucune de ces réponses"
+    ],
+    "answer": "\"Hello World\" toutes les 3 secondes"
+  },
+  {
+    "id": 52,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetTimeout(() => {\n  console.log(\"Hello World\");\n}, 2000);",
+    "options": [
+      "\"Hello World\" toutes les 2 minutes",
+      "\"Hello World\" toutes les 2 secondes",
+      "\"Hello World\" après 2 minutes",
+      "\"Hello World\" après 2 secondes",
+      "\"Hello World\" 2 fois",
+      "rien",
+      "aucune de ces réponses"
+    ],
+    "answer": "\"Hello World\" après 2 secondes"
+  },
+  {
+    "id": 53,
+    "question": "Parmi les propositions suivantes, lesquelles sont correctes au sujet du code suivant ?\n\nconst displayNumber = (num, func) => {\n  return num * func();\n};\n// function to generate a random number :\nconst getRandomNumber = () => {\n  return Math.round(Math.random() * 100);\n};",
+    "options": [
+      "Le nom \"func\" désigne la fonction \"displayNumber\".",
+      "La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
+      "La fonction \"getRandomNumber\" n'est pas une fonction anonyme.",
+      "On passe 2 arguments à la fonction \"getRandomNumber\".",
+      "aucune de ces réponses"
+    ],
+    "answer": [
+      "La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
+      "La fonction \"getRandomNumber\" n'est pas une fonction anonyme."
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Parmi les proposition suivantes, lesquelles sont correctes au sujet du code suivant ? (plusieurs réponses possibles)\n\nconst displaySentence = (str, func) => {\n  return func(str);\n};\nconsole.log(\n  displaySentence(\"John\", (name) => {\n    return `My name is ${name}.`;\n  })\n);",
+    "options": [
+      "La fonction \"displaySentence\" est une fonction anonyme.",
+      "Il y a une fonction de callback.",
+      "On ne passe pas d'argument à la fonction anonyme.",
+      "La fonction \"displaySentence\" ne retourne rien.",
+      "aucune de ces réponses"
+    ],
+    "answer": ["Il y a une fonction de callback."]
+  },
+  {
+    "id": 55,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(displayLetters(\"O\", displaySingleLetter));\n\nconst displaySingleLetter = () => {\n  return \"Z\";\n};",
+    "options": ["ZO", "OZ", "ZZ", "OO", "ZZO", "aucune de ces réponses"],
+    "answer": "ZO"
+  },
+  {
+    "id": 56,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(\n  displayLetters(\"K\", () => {\n    return \"A\";\n  })\n);",
+    "options": ["KA", "AK", "A", "K", "AKA", "aucune de ces réponses"],
+    "answer": "AK"
+  },
+  {
+    "id": 57,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  const letters = func(\"M\") + letter1;\n  return letters;\n};\nconsole.log(displayLetters(\"R\", (letter2) => {\n  return letter2 + \"U\";\n}));",
+    "options": ["MR", "MU", "MRU", "MUR", "RMU", "aucune de ces réponses"],
+    "answer": "MR"
+  },
+  {
+    "id": 58,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  let letters = func(\"Q\") + func(\"F\");\n  return letters;\n};\nconsole.log(\n  displayLetters(\"E\", (letter2) => {\n    return letter2 + \"Y\";\n  })\n);",
+    "options": [
+      "EQFY",
+      "EQYFY",
+      "QFEY",
+      "QFY",
+      "QYFY",
+      "EQYEFY",
+      "QF",
+      "aucune de ces réponses"
+    ],
+    "answer": "QFY"
+  },
+  {
+    "id": 59,
+    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Le Reacteur\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
+    "options": [
+      "name",
+      "name.bootcamp",
+      "bootcamp(name)",
+      "bootcamp.name",
+      "bootcamp[name]",
+      "aucune de ces réponses"
+    ],
+    "answer": "bootcamp.name"
+  },
+  {
+    "id": 60,
+    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher 32 ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
+    "options": [
+      "bootcamp[\"numberOfStudents\"]",
+      "bootcamp[numberOfStudents]",
+      "bootcamp.[\"numberOfStudents\"]",
+      "bootcamp.(\"numberOfStudents\")",
+      "bootcamp.(numberOfStudents)",
+      "aucune de ces réponses"
+    ],
+    "answer": "bootcamp[\"numberOfStudents\"]"
+  },
+  {
+    "id": 61,
+    "question": "Parmi les propositions suivantes, lesquelles permettent d'ajouter à l'objet \"bootcamp\" la clé \"skills\" ayant pour valeur \"[\"JavaScript\", \"React\"]\" ? (plusieurs réponses possibles)\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};",
+    "options": [
+      "bootcamp[skills] = [\"JavaScript\", \"React\"];",
+      "bootcamp.(skills) = [\"JavaScript\", \"React\"];",
+      "bootcamp.[skills] = [\"JavaScript\", \"React\"];",
+      "bootcamp.skills = [\"JavaScript\", \"React\"];",
+      "bootcamp.\"skills\" = [\"JavaScript\", \"React\"];",
+      "bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];",
+      "aucune de ces réponses"
+    ],
+    "answer": [
+      "bootcamp.skills = [\"JavaScript\", \"React\"];",
+      "bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Paris\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"]\n};\nconst keyName = \"city\";\nconsole.log(?);",
+    "options": [
+      "bootcamp(keyName)",
+      "bootcamp.keyName",
+      "bootcamp[keyName]",
+      "bootcamp[\"keyName\"]",
+      "bootcamp.\"keyName\"",
+      "aucune de ces réponses"
+    ],
+    "answer": "bootcamp[keyName]"
+  },
+  {
+    "id": 63,
+    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Farid\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconsole.log(?);",
+    "options": [
+      "bootcamp.leaders[0].name[0]",
+      "bootcamp.leaders.name[0]",
+      "bootcamp.leaders.name",
+      "bootcamp.leaders[0][name]",
+      "bootcamp.leaders[0].name",
+      "aucune de ces réponses"
+    ],
+    "answer": "bootcamp.leaders[0].name"
+  },
+  {
+    "id": 64,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nconsole.log(keys);",
+    "options": [
+      "{ 'name', 'city', 'numberOfStudents' }",
+      "{'Le Reacteur', 'Paris', 32}",
+      "['Le Reacteur', 'Paris', 32]",
+      "[ 'name', 'city', 'numberOfStudents' ]",
+      "name, puis city, puis numberOfStudents",
+      "Le Reacteur, puis Paris, puis 32",
+      "aucune de ces réponses"
+    ],
+    "answer": "[ 'name', 'city', 'numberOfStudents' ]"
+  },
+  {
+    "id": 65,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nfor (let i = 0; i < keys.length; i++) {\n  console.log(bootcamp[keys[i]]);\n}",
+    "options": [
+      "name, puis city, puis numberOfStudents",
+      "Le Reacteur, puis Paris, puis 32",
+      "name : \"Le Reacteur\", puis city : \"Paris\", puis numberOfStudents : 32",
+      "[ 'Le Reacteur', 'Paris', 32 ]",
+      "[ 'Le Reacteur', 'Paris', '32' ]",
+      "une erreur",
+      "aucune de ces réponses"
+    ],
+    "answer": "Le Reacteur, puis Paris, puis 32"
+  },
+  {
+    "id": 66,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconst names = bootcamp.teachers;\nconsole.log(names);",
+    "options": [
+      "undefined",
+      "[ 'Alexis', 'Brice', 'Corinne' ]",
+      "Alexis, puis Brice, puis Corinne",
+      "aucune de ces réponses"
+    ],
+    "answer": "[ 'Alexis', 'Brice', 'Corinne' ]"
+  },
+  {
+    "id": 67,
+    "question": "Dans le code suivant, par quoi faudrait-il remplacer le ? pour pouvoir afficher les âges des leaders dans le terminal?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      name: \"Xavier\",\n      age: 40\n    }\n  ]\n};\nfor (let i = 0; i < bootcamp.leaders.length; i++) {\n  console.log(?);\n}",
+    "options": [
+      "leaders.age[i]",
+      "leaders[i].age",
+      "bootcamp.leaders.age",
+      "leaders.age",
+      "bootcamp.leaders.age[i]",
+      "bootcamp.leaders[i].age",
+      "aucune de ces réponses"
+    ],
+    "answer": "bootcamp.leaders[i].age"
+  },
+  {
+    "id": 68,
+    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst obj = {\n  a: 1,\n  b: 2,\n  c: 3,\n  d: 4,\n  e: 5,\n  f: 6\n};\nconsole.log(obj.length);",
+    "options": ["0", "5", "6", "7", "12", "aucune de ces réponses"],
+    "answer": "aucune de ces réponses"
+  }
+]
