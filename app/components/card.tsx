@@ -7,7 +7,7 @@ const Card = () => {
 	const [indexQuestion, setIndexQuestion] = useState(0);
 	const [isTrue, setIsTrue] = useState(false);
 	const [counter, setCounter] = useState(0);
-	const handleClick = (option: any) => {
+	const handleClick = (option: string) => {
 		if (option === data[indexQuestion].answer) {
 			setIsTrue(true);
 			setCounter(counter + 1);
