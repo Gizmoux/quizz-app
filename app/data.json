@@ -1,742 +1,2986 @@
 [
-  {
-    "id": 1,
-    "question": "Quel mot clé permet de déclarer une variable modifiable en JavaScript ?",
-    "options": ["string", "const", "number", "let", "aucune de ces réponses"],
-    "answer": "let"
-  },
-  {
-    "id": 2,
-    "question": "Quel mot clé permet de déclarer une variable non modifiable en JavaScript ?",
-    "options": ["number", "let", "const", "string", "aucune de ces réponses"],
-    "answer": "const"
-  },
-  {
-    "id": 3,
-    "question": "Quelle fonction permet d'afficher la valeur d'une variable dans le terminal ?",
-    "options": [
-      "write()",
-      "display()",
-      "var.log()",
-      "console.log()",
-      "aucune de ces réponses"
-    ],
-    "answer": "console.log()"
-  },
-  {
-    "id": 4,
-    "question": "Parmi les commandes suivantes, laquelle permet d'exécuter un script dans le terminal ?",
-    "options": [
-      "node run script",
-      "node",
-      "node mon-fichier.js",
-      "aucune de ces réponses"
-    ],
-    "answer": "node mon-fichier.js"
-  },
-  {
-    "id": 5,
-    "question": "Parmi les opérateurs mathématiques suivants, lequel permet d'effectuer une multiplication ?",
-    "options": ["*", "x", "/", "%", "aucune de ces réponses"],
-    "answer": "*"
-  },
-  {
-    "id": 6,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet num;\nnum = 5;\nconsole.log(num);",
-    "options": ["num", "undefined", "null", "5", "aucune de ces réponses"],
-    "answer": "5"
-  },
-  {
-    "id": 7,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet a = 10;\na = 10 + 2;\nconsole.log('a');",
-    "options": ["a", "10", "12", "102", "undefined", "aucune de ces réponses"],
-    "answer": "a"
-  },
-  {
-    "id": 8,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'Hello';\nconst len = str.length;\nconsole.log(len);",
-    "options": [
-      "len",
-      "5",
-      "6",
-      "Hello",
-      "undefined",
-      "aucune de ces réponses"
-    ],
-    "answer": "5"
-  },
-  {
-    "id": 9,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = '100';\nconst number = 5;\nconsole.log(number + str);",
-    "options": ["100", "105", "5100", "1005", "aucune de ces réponses"],
-    "answer": "5100"
-  },
-  {
-    "id": 10,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'bienvenue au reacteur';\nif (str === 'Bienvenue au Reacteur') {\n  console.log(true);\n} else {\n  console.log(false);\n}",
-    "options": [
-      "Bienvenue au Reacteur",
-      "true",
-      "false",
-      "true et false",
-      "aucune de ces réponses"
-    ],
-    "answer": "false"
-  },
-  {
-    "id": 11,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str1 = \"Hello\";\nconst str2 = \" \";\nconst str3 = \"World\";\nconst fullStr = str1 + str2 + str3.toUpperCase();\nconsole.log(fullStr);",
-    "options": [
-      "HELLO WORLD",
-      "Hello WORLD",
-      "HelloWORLD",
-      "Hello World",
-      "aucune de ces réponses"
-    ],
-    "answer": "Hello WORLD"
-  },
-  {
-    "id": 12,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"abcd\" + e;\nconsole.log(str);",
-    "options": ["abcde", "'abcd'e", "abcd", "e", "aucune de ces réponses"],
-    "answer": "une erreur"
-  },
-  {
-    "id": 13,
-    "question": "Parmi les propositions suivantes, laquelle est une méthode permettant de renvoyer un caractère d'une chaîne de caractères ?",
-    "options": [
-      "stringAt",
-      "stringChar",
-      "charAt",
-      "charString",
-      "aucune de ces réponses"
-    ],
-    "answer": "charAt"
-  },
-  {
-    "id": 14,
-    "question": "Parmi les propositions suivantes, laquelle est une propriété permettant d'obtenir la longueur d'une chaîne de caractères ?",
-    "options": [
-      "length",
-      "full",
-      "fullString",
-      "stringLength",
-      "aucune de ces réponses"
-    ],
-    "answer": "length"
-  },
-  {
-    "id": 15,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Hello\";\nfor (let i = 0; i < 10; i++) {\n  console.log(i);\n}",
-    "options": [
-      "les nombres de 0 à 9",
-      "les nombres de 0 à 10",
-      "les lettres du mot \"Hello\", de H à o",
-      "les lettres du mot \"Hello\", de o à H",
-      "aucune de ces réponses"
-    ],
-    "answer": "les nombres de 0 à 9"
-  },
-  {
-    "id": 16,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Albert\";\nfor (let i = 0; i < firstName.length; i++) {\n  console.log(firstName.charAt(i));\n}",
-    "options": [
-      "les lettres A, l, b, e, r, t",
-      "les lettres t, r, e, b, l, A",
-      "les lettres A, l, b, e, r",
-      "les lettres t, r, e, b, l",
-      "aucune de ces réponses"
-    ],
-    "answer": "les lettres A, l, b, e, r, t"
-  },
-  {
-    "id": 17,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Tom\";\nconst displayName = (firstName) => {\n  console.log(\"firstName\");\n};",
-    "options": [
-      "Tom",
-      "firstName",
-      "displayName",
-      "rien",
-      "aucune de ces réponses"
-    ],
-    "answer": "firstName"
-  },
-  {
-    "id": 18,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (a, b) => {\n  const total = a - b;\n  return total;\n};\nconst result = sub(3, 1);\nconsole.log(result);",
-    "options": ["4", "2", "-2", "aucune de ces réponses"],
-    "answer": "2"
-  },
-  {
-    "id": 19,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (num1, num2) => {\n  let result = num1 - num2;\n};\nconst a = 20;\nconst b = 10;\nconsole.log(sub(b, a));",
-    "options": ["10", "-10", "20", "aucune de ces réponses"],
-    "answer": "undefined"
-  },
-  {
-    "id": 20,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Reacteur\";\nconst displayLetters = (str) => {\n  return str;\n};\ndisplayLetters(str);",
-    "options": [
-      "une erreur",
-      "Reacteur",
-      "undefined",
-      "aucune de ces réponses"
-    ],
-    "answer": "Reacteur"
-  },
-  {
-    "id": 21,
-    "question": "D'après le code suivant, combien de $ affichera le terminal ?\n\nconst generateMoney = (num) => {\n  let str = \"\";\n  for (let i = 0; i <= num; i++) {\n    str = str + \"$\";\n  }\n  return str;\n};\nconsole.log(generateMoney(5));",
-    "options": ["0", "4", "5", "6", "+de6", "aucune de ces réponses"],
-    "answer": "6"
-  },
-  {
-    "id": 22,
-    "question": "Qu'affichera le terminal ?\n\nconst generateToken = (num) => {\n  let str = \"\";\n  if (num < 0) {\n    str += \"$\";\n  } else if (num >= 0) {\n    str += \"€\";\n  } else if (num > 2) {\n    str += \"#\";\n  }\n  return str;\n};\nconsole.log(generateToken(3));",
-    "options": [
-      "$",
-      "€",
-      "#",
-      "$et€",
-      "$et#",
-      "€et#",
-      "aucune de ces réponses"
-    ],
-    "answer": "€"
-  },
-  {
-    "id": 23,
-    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour déclencher un retour à la ligne dans le terminal ?",
-    "options": [
-      "/",
-      "\\",
-      "/n",
-      "\\n",
-      "//n",
-      "\\\\n",
-      "aucune de ces réponses"
-    ],
-    "answer": "\\n"
-  },
-  {
-    "id": 24,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconsole.log(\"ab\" + \"?\" + \"cd\");\nconsole.log(10 % 5);",
-    "options": ["0 1", "2", "5", "10", "20", "10%5", "aucune de ces réponses"],
-    "answer": "0"
-  },
-  {
-    "id": 25,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Le Reacteur\";\nconst result = str.indexOf(\"A\");\nconsole.log(result);",
-    "options": ["0", "1", "5", "6", "-1", "aucune de ces réponses"],
-    "answer": "-1"
-  },
-  {
-    "id": 26,
-    "question": "Parmi les console.log() suivants, lequel permettrait d'afficher \"Bienvenue au Reacteur\" dans le terminal ?",
-    "options": [
-      "console.log(`#{str} au #{name}`);",
-      "console.log(`%{str} au %{name}`);",
-      "console.log(`\\{str} au \\{name}`);",
-      "console.log(`${str} au ${name}`);",
-      "console.log(`€{str} au €{name}`);",
-      "console.log(`/{str} au /{name}`);",
-      "aucune de ces réponses"
-    ],
-    "answer": "console.log(`${str} au ${name}`);"
-  },
-  {
-    "id": 27,
-    "question": "Parmi les propositions suivantes, laquelle permet de créer une fonction ?",
-    "options": [
-      "const func => {}",
-      "const () func => {}",
-      "const func {} => ()",
-      "const func () => return",
-      "aucune de ces réponses"
-    ],
-    "answer": "aucune de ces réponses"
-  },
-  {
-    "id": 28,
-    "question": "D'après le code suivant, combien de * affichera le terminal ?\n\nfor (let i = 0; i < 4; i++) {\n  for (let j = 0; j < 2; j++) {\n    console.log(\"*\");\n  }\n}",
-    "options": ["0", "2", "4", "8", "12", "16", "aucune de ces réponses"],
-    "answer": "8"
-  },
-  {
-    "id": 29,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 5; j++) {\n    str = str + \"-\";\n  }\n  str = str + \"X\";\n}\nconsole.log(str);",
-    "options": [
-      "-----X-----X-----X",
-      "XXXXX-XXXXX-XXXXX-",
-      "---X---X---X---X---X",
-      "XXX-XXX-XXX-XXX-XXX-",
-      "-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X",
-      "aucune de ces réponses"
-    ],
-    "answer": "-----X-----X-----X"
-  },
-  {
-    "id": 30,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst evenOdd = (num) => {\n  let result = num % 2;\n  if (result !== 0) {\n    return \"odd\";\n  } else {\n    return \"even\";\n  }\n};\nconsole.log(evenOdd(5));",
-    "options": ["odd", "even", "une erreur", "aucune de ces réponses"],
-    "answer": "odd"
-  },
-  {
-    "id": 31,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[4]);",
-    "options": ["a", "b", "c", "d", "e", "f", "aucune de ces réponses"],
-    "answer": "e"
-  },
-  {
-    "id": 32,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[10]);",
-    "options": [
-      "une des lettres du tableau",
-      "undefined",
-      "une erreur",
-      "aucune de ces réponses"
-    ],
-    "answer": "undefined"
-  },
-  {
-    "id": 33,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst numbers = [3, 2, 1, 0];\nnumbers.push(4);\nconsole.log(numbers);",
-    "options": ["[4,3,2,1,0]", "[3,2,1,0,4]", "4", "aucune de ces réponses"],
-    "answer": "[3,2,1,0,4]"
-  },
-  {
-    "id": 34,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = indexOf(\"snake\");\nconsole.log(num);",
-    "options": ["0", "-1", "une erreur", "aucune de ces réponses"],
-    "answer": "une erreur"
-  },
-  {
-    "id": 35,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = animals.indexOf(\"dog\");\nconsole.log(num);\nconst animals = [\"cat\", \"frog\", \"dog\"];\nconst popped = animals.pop();\nconsole.log(popped);",
-    "options": [
-      "dog",
-      "cat frog",
-      "['cat', 'frog']",
-      "['dog']",
-      "aucune de ces réponses"
-    ],
-    "answer": "['dog']"
-  },
-  {
-    "id": 36,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst names = [\"Paris\", \"Farid\", \"Xavier\", \"Reacteur\"];\nconst sentence = names.join(\" \");\nconsole.log(sentence);",
-    "options": [
-      "Paris-Farid-Xavier-Reacteur",
-      "Paris Farid Xavier Reacteur",
-      "ParisFaridXavierReacteur",
-      "Paris,Farid,Xavier,Reacteur",
-      "aucune de ces réponses"
-    ],
-    "answer": "Paris Farid Xavier Reacteur"
-  },
-  {
-    "id": 37,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [5, 20, 4, 12, 1];\nconsole.log(tab.sort());",
-    "options": [
-      "[12,1,20,4,5]",
-      "[1,4,5,12,20]",
-      "[1,12,20,4,5]",
-      "[5,4,20,12,1]",
-      "aucune de ces réponses"
-    ],
-    "answer": "[1,12,20,4,5]"
-  },
-  {
-    "id": 38,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = array => {\n  array.sort().shift();\n  return array;\n};\nconsole.log(func([\"c\", \"a\", \"b\"]));",
-    "options": [
-      "['a', 'b', 'c']",
-      "['c', 'b', 'a']",
-      "['a', 'b']",
-      "['b', 'c']",
-      "['c', 'a']",
-      "aucune de ces réponses"
-    ],
-    "answer": "['b', 'c']"
-  },
-  {
-    "id": 39,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = (str1, str2) => {\n  return str1;\n  return str2;\n};\nconsole.log(func(\"Hello\", \"World\"));",
-    "options": [
-      "Hello",
-      "World",
-      "Hello et World",
-      "undefined",
-      "aucune de ces réponses"
-    ],
-    "answer": "Hello"
-  },
-  {
-    "id": 40,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconst newArray = fruits.slice(0, 3);\nconsole.log(newArray);",
-    "options": [
-      "['Apple', 'Strawberry', 'Banana']",
-      "['Apple', 'Strawberry', 'Banana', 'Lemon']",
-      "['Lemon', 'Watermelon']",
-      "['Watermelon']",
-      "aucune de ces réponses"
-    ],
-    "answer": "['Apple', 'Strawberry', 'Banana']"
-  },
-  {
-    "id": 41,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  return tab[1];\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
-    "options": [
-      "Apple",
-      "Strawberry",
-      "['Apple']",
-      "['Strawberry']",
-      "['Apple', 'Strawberry', 'Banana', 'Lemon', 'Watermelon']",
-      "aucune de ces réponses"
-    ],
-    "answer": "Strawberry"
-  },
-  {
-    "id": 42,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  const popped = tab.pop();\n  return;\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
-    "options": [
-      "Watermelon",
-      "['Strawberry', 'Banana', 'Lemon', 'Watermelon']",
-      "['Watermelon']",
-      "['Apple', 'Strawberry', 'Banana', 'Lemon']",
-      "['Apple']",
-      "aucune de ces réponses"
-    ],
-    "answer": "undefined"
-  },
-  {
-    "id": 43,
-    "question": "D'après le code suivant, combien de * affichera le terminal ?\n\nconst displayStars = (str, num) => {\n  let stars = \"\";\n  for (let i = 0; i < num; i++) {\n    stars = stars + str;\n  }\n  return stars;\n};\nconsole.log(displayStars(\"**\", 3));",
-    "options": ["0", "2", "3", "4", "6", "+de6", "aucune de ces réponses"],
-    "answer": "6"
-  },
-  {
-    "id": 44,
-    "question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) !== \"e\") {\n      counter++;\n    }\n  }\n  return counter;\n};\nconsole.log(countLetters(\"Reacteur\"));",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "+de8",
-      "aucune de ces réponses"
-    ],
-    "answer": "6"
-  },
-  {
-    "id": 45,
-    "question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) === \"e\") {\n      counter++;\n      return counter;\n    }\n  }\n};\nconsole.log(countLetters(\"Le Reacteur\"));",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10",
-      "11",
-      "+de11",
-      "aucune de ces réponses"
-    ],
-    "answer": "1"
-  },
-  {
-    "id": 46,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 2; i++) {\n  str = str + \"X\";\n  for (let j = 0; j < 4; j++) {\n    str = str + \"-\";\n  }\n}\nconsole.log(str);",
-    "options": [
-      "X-X-X-X-X-X-X-X-",
-      "--XXXX--XXXX",
-      "XX----XX----",
-      "----X----X",
-      "X----X----",
-      "aucune de ces réponses"
-    ],
-    "answer": "X----X----"
-  },
-  {
-    "id": 47,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x !== y) {\n  console.log(\"A\");\n} else if (x >= y) {\n  console.log(\"B\");\n} else if (y <= 3) {\n  console.log(\"C\");\n}",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "AetB",
-      "AetC",
-      "BetC",
-      "A,BetC",
-      "aucune de ces réponses"
-    ],
-    "answer": "A"
-  },
-  {
-    "id": 48,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x === 5 || y !== 5) {\n  console.log(\"A\");\n}\nif (x < 10 && y < 10) {\n  console.log(\"B\");\n}\nif ((x === 6 && y === 3) || x === y) {\n  console.log(\"C\");\n}",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "AetB",
-      "AetC",
-      "BetC",
-      "A,BetC",
-      "aucune de ces réponses"
-    ],
-    "answer": "A,BetC"
-  },
-  {
-    "id": 49,
-    "question": "Parmi ces propositions, laquelle permet de connaître le type d'une variable ?",
-    "options": [
-      "kindof",
-      "kindOf",
-      "typeOf",
-      "typeof",
-      "foreach",
-      "forEach",
-      "aucune de ces réponses"
-    ],
-    "answer": "typeof"
-  },
-  {
-    "id": 50,
-    "question": "Quelle méthode applicable à un tableau permet de supprimer le 1er élément du tableau ?",
-    "options": [
-      "unshift()",
-      "shift()",
-      "push()",
-      "pop()",
-      "reverse()",
-      "aucune de ces réponses"
-    ],
-    "answer": "shift()"
-  },
-  {
-    "id": 51,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetInterval(() => {\n  console.log(\"Hello World\");\n}, 3000);",
-    "options": [
-      "\"Hello World\" après 3 secondes",
-      "\"Hello World\" après 3 minutes",
-      "\"Hello World\" 3 fois",
-      "\"Hello World\" toutes les 3 secondes",
-      "\"Hello World\" toutes les 3 minutes",
-      "aucune de ces réponses"
-    ],
-    "answer": "\"Hello World\" toutes les 3 secondes"
-  },
-  {
-    "id": 52,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetTimeout(() => {\n  console.log(\"Hello World\");\n}, 2000);",
-    "options": [
-      "\"Hello World\" toutes les 2 minutes",
-      "\"Hello World\" toutes les 2 secondes",
-      "\"Hello World\" après 2 minutes",
-      "\"Hello World\" après 2 secondes",
-      "\"Hello World\" 2 fois",
-      "rien",
-      "aucune de ces réponses"
-    ],
-    "answer": "\"Hello World\" après 2 secondes"
-  },
-  {
-    "id": 53,
-    "question": "Parmi les propositions suivantes, lesquelles sont correctes au sujet du code suivant ?\n\nconst displayNumber = (num, func) => {\n  return num * func();\n};\n// function to generate a random number :\nconst getRandomNumber = () => {\n  return Math.round(Math.random() * 100);\n};",
-    "options": [
-      "Le nom \"func\" désigne la fonction \"displayNumber\".",
-      "La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
-      "La fonction \"getRandomNumber\" n'est pas une fonction anonyme.",
-      "On passe 2 arguments à la fonction \"getRandomNumber\".",
-      "aucune de ces réponses"
-    ],
-    "answer": [
-      "La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
-      "La fonction \"getRandomNumber\" n'est pas une fonction anonyme."
-    ]
-  },
-  {
-    "id": 54,
-    "question": "Parmi les proposition suivantes, lesquelles sont correctes au sujet du code suivant ? (plusieurs réponses possibles)\n\nconst displaySentence = (str, func) => {\n  return func(str);\n};\nconsole.log(\n  displaySentence(\"John\", (name) => {\n    return `My name is ${name}.`;\n  })\n);",
-    "options": [
-      "La fonction \"displaySentence\" est une fonction anonyme.",
-      "Il y a une fonction de callback.",
-      "On ne passe pas d'argument à la fonction anonyme.",
-      "La fonction \"displaySentence\" ne retourne rien.",
-      "aucune de ces réponses"
-    ],
-    "answer": ["Il y a une fonction de callback."]
-  },
-  {
-    "id": 55,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(displayLetters(\"O\", displaySingleLetter));\n\nconst displaySingleLetter = () => {\n  return \"Z\";\n};",
-    "options": ["ZO", "OZ", "ZZ", "OO", "ZZO", "aucune de ces réponses"],
-    "answer": "ZO"
-  },
-  {
-    "id": 56,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(\n  displayLetters(\"K\", () => {\n    return \"A\";\n  })\n);",
-    "options": ["KA", "AK", "A", "K", "AKA", "aucune de ces réponses"],
-    "answer": "AK"
-  },
-  {
-    "id": 57,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  const letters = func(\"M\") + letter1;\n  return letters;\n};\nconsole.log(displayLetters(\"R\", (letter2) => {\n  return letter2 + \"U\";\n}));",
-    "options": ["MR", "MU", "MRU", "MUR", "RMU", "aucune de ces réponses"],
-    "answer": "MR"
-  },
-  {
-    "id": 58,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  let letters = func(\"Q\") + func(\"F\");\n  return letters;\n};\nconsole.log(\n  displayLetters(\"E\", (letter2) => {\n    return letter2 + \"Y\";\n  })\n);",
-    "options": [
-      "EQFY",
-      "EQYFY",
-      "QFEY",
-      "QFY",
-      "QYFY",
-      "EQYEFY",
-      "QF",
-      "aucune de ces réponses"
-    ],
-    "answer": "QFY"
-  },
-  {
-    "id": 59,
-    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Le Reacteur\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
-    "options": [
-      "name",
-      "name.bootcamp",
-      "bootcamp(name)",
-      "bootcamp.name",
-      "bootcamp[name]",
-      "aucune de ces réponses"
-    ],
-    "answer": "bootcamp.name"
-  },
-  {
-    "id": 60,
-    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher 32 ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
-    "options": [
-      "bootcamp[\"numberOfStudents\"]",
-      "bootcamp[numberOfStudents]",
-      "bootcamp.[\"numberOfStudents\"]",
-      "bootcamp.(\"numberOfStudents\")",
-      "bootcamp.(numberOfStudents)",
-      "aucune de ces réponses"
-    ],
-    "answer": "bootcamp[\"numberOfStudents\"]"
-  },
-  {
-    "id": 61,
-    "question": "Parmi les propositions suivantes, lesquelles permettent d'ajouter à l'objet \"bootcamp\" la clé \"skills\" ayant pour valeur \"[\"JavaScript\", \"React\"]\" ? (plusieurs réponses possibles)\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};",
-    "options": [
-      "bootcamp[skills] = [\"JavaScript\", \"React\"];",
-      "bootcamp.(skills) = [\"JavaScript\", \"React\"];",
-      "bootcamp.[skills] = [\"JavaScript\", \"React\"];",
-      "bootcamp.skills = [\"JavaScript\", \"React\"];",
-      "bootcamp.\"skills\" = [\"JavaScript\", \"React\"];",
-      "bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];",
-      "aucune de ces réponses"
-    ],
-    "answer": [
-      "bootcamp.skills = [\"JavaScript\", \"React\"];",
-      "bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];"
-    ]
-  },
-  {
-    "id": 62,
-    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Paris\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"]\n};\nconst keyName = \"city\";\nconsole.log(?);",
-    "options": [
-      "bootcamp(keyName)",
-      "bootcamp.keyName",
-      "bootcamp[keyName]",
-      "bootcamp[\"keyName\"]",
-      "bootcamp.\"keyName\"",
-      "aucune de ces réponses"
-    ],
-    "answer": "bootcamp[keyName]"
-  },
-  {
-    "id": 63,
-    "question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Farid\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconsole.log(?);",
-    "options": [
-      "bootcamp.leaders[0].name[0]",
-      "bootcamp.leaders.name[0]",
-      "bootcamp.leaders.name",
-      "bootcamp.leaders[0][name]",
-      "bootcamp.leaders[0].name",
-      "aucune de ces réponses"
-    ],
-    "answer": "bootcamp.leaders[0].name"
-  },
-  {
-    "id": 64,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nconsole.log(keys);",
-    "options": [
-      "{ 'name', 'city', 'numberOfStudents' }",
-      "{'Le Reacteur', 'Paris', 32}",
-      "['Le Reacteur', 'Paris', 32]",
-      "[ 'name', 'city', 'numberOfStudents' ]",
-      "name, puis city, puis numberOfStudents",
-      "Le Reacteur, puis Paris, puis 32",
-      "aucune de ces réponses"
-    ],
-    "answer": "[ 'name', 'city', 'numberOfStudents' ]"
-  },
-  {
-    "id": 65,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nfor (let i = 0; i < keys.length; i++) {\n  console.log(bootcamp[keys[i]]);\n}",
-    "options": [
-      "name, puis city, puis numberOfStudents",
-      "Le Reacteur, puis Paris, puis 32",
-      "name : \"Le Reacteur\", puis city : \"Paris\", puis numberOfStudents : 32",
-      "[ 'Le Reacteur', 'Paris', 32 ]",
-      "[ 'Le Reacteur', 'Paris', '32' ]",
-      "une erreur",
-      "aucune de ces réponses"
-    ],
-    "answer": "Le Reacteur, puis Paris, puis 32"
-  },
-  {
-    "id": 66,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconst names = bootcamp.teachers;\nconsole.log(names);",
-    "options": [
-      "undefined",
-      "[ 'Alexis', 'Brice', 'Corinne' ]",
-      "Alexis, puis Brice, puis Corinne",
-      "aucune de ces réponses"
-    ],
-    "answer": "[ 'Alexis', 'Brice', 'Corinne' ]"
-  },
-  {
-    "id": 67,
-    "question": "Dans le code suivant, par quoi faudrait-il remplacer le ? pour pouvoir afficher les âges des leaders dans le terminal?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      name: \"Xavier\",\n      age: 40\n    }\n  ]\n};\nfor (let i = 0; i < bootcamp.leaders.length; i++) {\n  console.log(?);\n}",
-    "options": [
-      "leaders.age[i]",
-      "leaders[i].age",
-      "bootcamp.leaders.age",
-      "leaders.age",
-      "bootcamp.leaders.age[i]",
-      "bootcamp.leaders[i].age",
-      "aucune de ces réponses"
-    ],
-    "answer": "bootcamp.leaders[i].age"
-  },
-  {
-    "id": 68,
-    "question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst obj = {\n  a: 1,\n  b: 2,\n  c: 3,\n  d: 4,\n  e: 5,\n  f: 6\n};\nconsole.log(obj.length);",
-    "options": ["0", "5", "6", "7", "12", "aucune de ces réponses"],
-    "answer": "aucune de ces réponses"
-  }
+	{
+		"id": 1,
+		"question": "Quel mot clé permet de déclarer une variable modifiable en JavaScript ?",
+		"options": ["string", "const", "number", "let", "aucune de ces réponses"],
+		"answer": "let"
+	},
+	{
+		"id": 2,
+		"question": "Quel mot clé permet de déclarer une variable non modifiable en JavaScript ?",
+		"options": ["number", "let", "const", "string", "aucune de ces réponses"],
+		"answer": "const"
+	},
+	{
+		"id": 3,
+		"question": "Quelle fonction permet d'afficher la valeur d'une variable dans le terminal ?",
+		"options": [
+			"write()",
+			"display()",
+			"var.log()",
+			"console.log()",
+			"aucune de ces réponses"
+		],
+		"answer": "console.log()"
+	},
+	{
+		"id": 4,
+		"question": "Parmi les commandes suivantes, laquelle permet d'exécuter un script dans le terminal ?",
+		"options": [
+			"node run script",
+			"node",
+			"node mon-fichier.js",
+			"aucune de ces réponses"
+		],
+		"answer": "node mon-fichier.js"
+	},
+	{
+		"id": 5,
+		"question": "Parmi les opérateurs mathématiques suivants, lequel permet d'effectuer une multiplication ?",
+		"options": ["*", "x", "/", "%", "aucune de ces réponses"],
+		"answer": "*"
+	},
+	{
+		"id": 6,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet num;\nnum = 5;\nconsole.log(num);",
+		"options": ["num", "undefined", "null", "5", "aucune de ces réponses"],
+		"answer": "5"
+	},
+	{
+		"id": 7,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet a = 10;\na = 10 + 2;\nconsole.log('a');",
+		"options": ["a", "10", "12", "102", "undefined", "aucune de ces réponses"],
+		"answer": "a"
+	},
+	{
+		"id": 8,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'Hello';\nconst len = str.length;\nconsole.log(len);",
+		"options": [
+			"len",
+			"5",
+			"6",
+			"Hello",
+			"undefined",
+			"aucune de ces réponses"
+		],
+		"answer": "5"
+	},
+	{
+		"id": 9,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = '100';\nconst number = 5;\nconsole.log(number + str);",
+		"options": ["100", "105", "5100", "1005", "aucune de ces réponses"],
+		"answer": "5100"
+	},
+	{
+		"id": 10,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = 'bienvenue au reacteur';\nif (str === 'Bienvenue au Reacteur') {\n  console.log(true);\n} else {\n  console.log(false);\n}",
+		"options": [
+			"Bienvenue au Reacteur",
+			"true",
+			"false",
+			"true et false",
+			"aucune de ces réponses"
+		],
+		"answer": "false"
+	},
+	{
+		"id": 11,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str1 = \"Hello\";\nconst str2 = \" \";\nconst str3 = \"World\";\nconst fullStr = str1 + str2 + str3.toUpperCase();\nconsole.log(fullStr);",
+		"options": [
+			"HELLO WORLD",
+			"Hello WORLD",
+			"HelloWORLD",
+			"Hello World",
+			"aucune de ces réponses"
+		],
+		"answer": "Hello WORLD"
+	},
+	{
+		"id": 12,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"abcd\" + e;\nconsole.log(str);",
+		"options": ["abcde", "'abcd'e", "abcd", "e", "aucune de ces réponses"],
+		"answer": "une erreur"
+	},
+	{
+		"id": 13,
+		"question": "Parmi les propositions suivantes, laquelle est une méthode permettant de renvoyer un caractère d'une chaîne de caractères ?",
+		"options": [
+			"stringAt",
+			"stringChar",
+			"charAt",
+			"charString",
+			"aucune de ces réponses"
+		],
+		"answer": "charAt"
+	},
+	{
+		"id": 14,
+		"question": "Parmi les propositions suivantes, laquelle est une propriété permettant d'obtenir la longueur d'une chaîne de caractères ?",
+		"options": [
+			"length",
+			"full",
+			"fullString",
+			"stringLength",
+			"aucune de ces réponses"
+		],
+		"answer": "length"
+	},
+	{
+		"id": 15,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Hello\";\nfor (let i = 0; i < 10; i++) {\n  console.log(i);\n}",
+		"options": [
+			"les nombres de 0 à 9",
+			"les nombres de 0 à 10",
+			"les lettres du mot \"Hello\", de H à o",
+			"les lettres du mot \"Hello\", de o à H",
+			"aucune de ces réponses"
+		],
+		"answer": "les nombres de 0 à 9"
+	},
+	{
+		"id": 16,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Albert\";\nfor (let i = 0; i < firstName.length; i++) {\n  console.log(firstName.charAt(i));\n}",
+		"options": [
+			"les lettres A, l, b, e, r, t",
+			"les lettres t, r, e, b, l, A",
+			"les lettres A, l, b, e, r",
+			"les lettres t, r, e, b, l",
+			"aucune de ces réponses"
+		],
+		"answer": "les lettres A, l, b, e, r, t"
+	},
+	{
+		"id": 17,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst firstName = \"Tom\";\nconst displayName = (firstName) => {\n  console.log(\"firstName\");\n};",
+		"options": [
+			"Tom",
+			"firstName",
+			"displayName",
+			"rien",
+			"aucune de ces réponses"
+		],
+		"answer": "firstName"
+	},
+	{
+		"id": 18,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (a, b) => {\n  const total = a - b;\n  return total;\n};\nconst result = sub(3, 1);\nconsole.log(result);",
+		"options": ["4", "2", "-2", "aucune de ces réponses"],
+		"answer": "2"
+	},
+	{
+		"id": 19,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst sub = (num1, num2) => {\n  let result = num1 - num2;\n};\nconst a = 20;\nconst b = 10;\nconsole.log(sub(b, a));",
+		"options": ["10", "-10", "20", "aucune de ces réponses"],
+		"answer": "undefined"
+	},
+	{
+		"id": 20,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Reacteur\";\nconst displayLetters = (str) => {\n  return str;\n};\ndisplayLetters(str);",
+		"options": [
+			"une erreur",
+			"Reacteur",
+			"undefined",
+			"aucune de ces réponses"
+		],
+		"answer": "Reacteur"
+	},
+	{
+		"id": 21,
+		"question": "D'après le code suivant, combien de $ affichera le terminal ?\n\nconst generateMoney = (num) => {\n  let str = \"\";\n  for (let i = 0; i <= num; i++) {\n    str = str + \"$\";\n  }\n  return str;\n};\nconsole.log(generateMoney(5));",
+		"options": ["0", "4", "5", "6", "+de6", "aucune de ces réponses"],
+		"answer": "6"
+	},
+	{
+		"id": 22,
+		"question": "Qu'affichera le terminal ?\n\nconst generateToken = (num) => {\n  let str = \"\";\n  if (num < 0) {\n    str += \"$\";\n  } else if (num >= 0) {\n    str += \"€\";\n  } else if (num > 2) {\n    str += \"#\";\n  }\n  return str;\n};\nconsole.log(generateToken(3));",
+		"options": [
+			"$",
+			"€",
+			"#",
+			"$et€",
+			"$et#",
+			"€et#",
+			"aucune de ces réponses"
+		],
+		"answer": "€"
+	},
+	{
+		"id": 23,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour déclencher un retour à la ligne dans le terminal ?",
+		"options": [
+			"/",
+			"\\",
+			"/n",
+			"\\n",
+			"//n",
+			"\\\\n",
+			"aucune de ces réponses"
+		],
+		"answer": "\\n"
+	},
+	{
+		"id": 24,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconsole.log(\"ab\" + \"?\" + \"cd\");\nconsole.log(10 % 5);",
+		"options": ["0 1", "2", "5", "10", "20", "10%5", "aucune de ces réponses"],
+		"answer": "0"
+	},
+	{
+		"id": 25,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst str = \"Le Reacteur\";\nconst result = str.indexOf(\"A\");\nconsole.log(result);",
+		"options": ["0", "1", "5", "6", "-1", "aucune de ces réponses"],
+		"answer": "-1"
+	},
+	{
+		"id": 26,
+		"question": "Parmi les console.log() suivants, lequel permettrait d'afficher \"Bienvenue au Reacteur\" dans le terminal ?",
+		"options": [
+			"console.log(`#{str} au #{name}`);",
+			"console.log(`%{str} au %{name}`);",
+			"console.log(`\\{str} au \\{name}`);",
+			"console.log(`${str} au ${name}`);",
+			"console.log(`€{str} au €{name}`);",
+			"console.log(`/{str} au /{name}`);",
+			"aucune de ces réponses"
+		],
+		"answer": "console.log(`${str} au ${name}`);"
+	},
+	{
+		"id": 27,
+		"question": "Parmi les propositions suivantes, laquelle permet de créer une fonction ?",
+		"options": [
+			"const func => {}",
+			"const () func => {}",
+			"const func {} => ()",
+			"const func () => return",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 28,
+		"question": "D'après le code suivant, combien de * affichera le terminal ?\n\nfor (let i = 0; i < 4; i++) {\n  for (let j = 0; j < 2; j++) {\n    console.log(\"*\");\n  }\n}",
+		"options": ["0", "2", "4", "8", "12", "16", "aucune de ces réponses"],
+		"answer": "8"
+	},
+	{
+		"id": 29,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 5; j++) {\n    str = str + \"-\";\n  }\n  str = str + \"X\";\n}\nconsole.log(str);",
+		"options": [
+			"-----X-----X-----X",
+			"XXXXX-XXXXX-XXXXX-",
+			"---X---X---X---X---X",
+			"XXX-XXX-XXX-XXX-XXX-",
+			"-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X",
+			"aucune de ces réponses"
+		],
+		"answer": "-----X-----X-----X"
+	},
+	{
+		"id": 30,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst evenOdd = (num) => {\n  let result = num % 2;\n  if (result !== 0) {\n    return \"odd\";\n  } else {\n    return \"even\";\n  }\n};\nconsole.log(evenOdd(5));",
+		"options": ["odd", "even", "une erreur", "aucune de ces réponses"],
+		"answer": "odd"
+	},
+	{
+		"id": 31,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[4]);",
+		"options": ["a", "b", "c", "d", "e", "f", "aucune de ces réponses"],
+		"answer": "e"
+	},
+	{
+		"id": 32,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\nconsole.log(tab[10]);",
+		"options": [
+			"une des lettres du tableau",
+			"undefined",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "undefined"
+	},
+	{
+		"id": 33,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst numbers = [3, 2, 1, 0];\nnumbers.push(4);\nconsole.log(numbers);",
+		"options": ["[4,3,2,1,0]", "[3,2,1,0,4]", "4", "aucune de ces réponses"],
+		"answer": "[3,2,1,0,4]"
+	},
+	{
+		"id": 34,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = indexOf(\"snake\");\nconsole.log(num);",
+		"options": ["0", "-1", "une erreur", "aucune de ces réponses"],
+		"answer": "une erreur"
+	},
+	{
+		"id": 35,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst animals = [\"cat\", \"frog\", \"dog\", \"horse\", \"mouse\"];\nconst num = animals.indexOf(\"dog\");\nconsole.log(num);\nconst animals = [\"cat\", \"frog\", \"dog\"];\nconst popped = animals.pop();\nconsole.log(popped);",
+		"options": [
+			"dog",
+			"cat frog",
+			"['cat', 'frog']",
+			"['dog']",
+			"aucune de ces réponses"
+		],
+		"answer": "['dog']"
+	},
+	{
+		"id": 36,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst names = [\"Paris\", \"Farid\", \"Xavier\", \"Reacteur\"];\nconst sentence = names.join(\" \");\nconsole.log(sentence);",
+		"options": [
+			"Paris-Farid-Xavier-Reacteur",
+			"Paris Farid Xavier Reacteur",
+			"ParisFaridXavierReacteur",
+			"Paris,Farid,Xavier,Reacteur",
+			"aucune de ces réponses"
+		],
+		"answer": "Paris Farid Xavier Reacteur"
+	},
+	{
+		"id": 37,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst tab = [5, 20, 4, 12, 1];\nconsole.log(tab.sort());",
+		"options": [
+			"[12,1,20,4,5]",
+			"[1,4,5,12,20]",
+			"[1,12,20,4,5]",
+			"[5,4,20,12,1]",
+			"aucune de ces réponses"
+		],
+		"answer": "[1,12,20,4,5]"
+	},
+	{
+		"id": 38,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = array => {\n  array.sort().shift();\n  return array;\n};\nconsole.log(func([\"c\", \"a\", \"b\"]));",
+		"options": [
+			"['a', 'b', 'c']",
+			"['c', 'b', 'a']",
+			"['a', 'b']",
+			"['b', 'c']",
+			"['c', 'a']",
+			"aucune de ces réponses"
+		],
+		"answer": "['b', 'c']"
+	},
+	{
+		"id": 39,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst func = (str1, str2) => {\n  return str1;\n  return str2;\n};\nconsole.log(func(\"Hello\", \"World\"));",
+		"options": [
+			"Hello",
+			"World",
+			"Hello et World",
+			"undefined",
+			"aucune de ces réponses"
+		],
+		"answer": "Hello"
+	},
+	{
+		"id": 40,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconst newArray = fruits.slice(0, 3);\nconsole.log(newArray);",
+		"options": [
+			"['Apple', 'Strawberry', 'Banana']",
+			"['Apple', 'Strawberry', 'Banana', 'Lemon']",
+			"['Lemon', 'Watermelon']",
+			"['Watermelon']",
+			"aucune de ces réponses"
+		],
+		"answer": "['Apple', 'Strawberry', 'Banana']"
+	},
+	{
+		"id": 41,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  return tab[1];\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
+		"options": [
+			"Apple",
+			"Strawberry",
+			"['Apple']",
+			"['Strawberry']",
+			"['Apple', 'Strawberry', 'Banana', 'Lemon', 'Watermelon']",
+			"aucune de ces réponses"
+		],
+		"answer": "Strawberry"
+	},
+	{
+		"id": 42,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayElement = (tab) => {\n  const popped = tab.pop();\n  return;\n};\nconst fruits = [\"Apple\", \"Strawberry\", \"Banana\", \"Lemon\", \"Watermelon\"];\nconsole.log(displayElement(fruits));",
+		"options": [
+			"Watermelon",
+			"['Strawberry', 'Banana', 'Lemon', 'Watermelon']",
+			"['Watermelon']",
+			"['Apple', 'Strawberry', 'Banana', 'Lemon']",
+			"['Apple']",
+			"aucune de ces réponses"
+		],
+		"answer": "undefined"
+	},
+	{
+		"id": 43,
+		"question": "D'après le code suivant, combien de * affichera le terminal ?\n\nconst displayStars = (str, num) => {\n  let stars = \"\";\n  for (let i = 0; i < num; i++) {\n    stars = stars + str;\n  }\n  return stars;\n};\nconsole.log(displayStars(\"**\", 3));",
+		"options": ["0", "2", "3", "4", "6", "+de6", "aucune de ces réponses"],
+		"answer": "6"
+	},
+	{
+		"id": 44,
+		"question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) !== \"e\") {\n      counter++;\n    }\n  }\n  return counter;\n};\nconsole.log(countLetters(\"Reacteur\"));",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"+de8",
+			"aucune de ces réponses"
+		],
+		"answer": "6"
+	},
+	{
+		"id": 45,
+		"question": "D'après le code suivant, quel nombre affichera le terminal ?\n\nconst countLetters = (str) => {\n  let counter = 0;\n  for (let i = 0; i < str.length; i++) {\n    if (str.charAt(i) === \"e\") {\n      counter++;\n      return counter;\n    }\n  }\n};\nconsole.log(countLetters(\"Le Reacteur\"));",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10",
+			"11",
+			"+de11",
+			"aucune de ces réponses"
+		],
+		"answer": "1"
+	},
+	{
+		"id": 46,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nlet str = \"\";\nfor (let i = 0; i < 2; i++) {\n  str = str + \"X\";\n  for (let j = 0; j < 4; j++) {\n    str = str + \"-\";\n  }\n}\nconsole.log(str);",
+		"options": [
+			"X-X-X-X-X-X-X-X-",
+			"--XXXX--XXXX",
+			"XX----XX----",
+			"----X----X",
+			"X----X----",
+			"aucune de ces réponses"
+		],
+		"answer": "X----X----"
+	},
+	{
+		"id": 47,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x !== y) {\n  console.log(\"A\");\n} else if (x >= y) {\n  console.log(\"B\");\n} else if (y <= 3) {\n  console.log(\"C\");\n}",
+		"options": [
+			"A",
+			"B",
+			"C",
+			"AetB",
+			"AetC",
+			"BetC",
+			"A,BetC",
+			"aucune de ces réponses"
+		],
+		"answer": "A"
+	},
+	{
+		"id": 48,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst x = 6;\nconst y = 3;\nif (x === 5 || y !== 5) {\n  console.log(\"A\");\n}\nif (x < 10 && y < 10) {\n  console.log(\"B\");\n}\nif ((x === 6 && y === 3) || x === y) {\n  console.log(\"C\");\n}",
+		"options": [
+			"A",
+			"B",
+			"C",
+			"AetB",
+			"AetC",
+			"BetC",
+			"A,BetC",
+			"aucune de ces réponses"
+		],
+		"answer": "A,BetC"
+	},
+	{
+		"id": 49,
+		"question": "Parmi ces propositions, laquelle permet de connaître le type d'une variable ?",
+		"options": [
+			"kindof",
+			"kindOf",
+			"typeOf",
+			"typeof",
+			"foreach",
+			"forEach",
+			"aucune de ces réponses"
+		],
+		"answer": "typeof"
+	},
+	{
+		"id": 50,
+		"question": "Quelle méthode applicable à un tableau permet de supprimer le 1er élément du tableau ?",
+		"options": [
+			"unshift()",
+			"shift()",
+			"push()",
+			"pop()",
+			"reverse()",
+			"aucune de ces réponses"
+		],
+		"answer": "shift()"
+	},
+	{
+		"id": 51,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetInterval(() => {\n  console.log(\"Hello World\");\n}, 3000);",
+		"options": [
+			"\"Hello World\" après 3 secondes",
+			"\"Hello World\" après 3 minutes",
+			"\"Hello World\" 3 fois",
+			"\"Hello World\" toutes les 3 secondes",
+			"\"Hello World\" toutes les 3 minutes",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Hello World\" toutes les 3 secondes"
+	},
+	{
+		"id": 52,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nsetTimeout(() => {\n  console.log(\"Hello World\");\n}, 2000);",
+		"options": [
+			"\"Hello World\" toutes les 2 minutes",
+			"\"Hello World\" toutes les 2 secondes",
+			"\"Hello World\" après 2 minutes",
+			"\"Hello World\" après 2 secondes",
+			"\"Hello World\" 2 fois",
+			"rien",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Hello World\" après 2 secondes"
+	},
+	{
+		"id": 53,
+		"question": "Parmi les propositions suivantes, lesquelles sont correctes au sujet du code suivant ?\n\nconst displayNumber = (num, func) => {\n  return num * func();\n};\n// function to generate a random number :\nconst getRandomNumber = () => {\n  return Math.round(Math.random() * 100);\n};",
+		"options": [
+			"Le nom \"func\" désigne la fonction \"displayNumber\".",
+			"La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
+			"La fonction \"getRandomNumber\" n'est pas une fonction anonyme.",
+			"On passe 2 arguments à la fonction \"getRandomNumber\".",
+			"aucune de ces réponses"
+		],
+		"answer": [
+			"La fonction \"getRandomNumber\" est passée en callback à la fonction \"displayNumber\".",
+			"La fonction \"getRandomNumber\" n'est pas une fonction anonyme."
+		]
+	},
+	{
+		"id": 54,
+		"question": "Parmi les proposition suivantes, lesquelles sont correctes au sujet du code suivant ? (plusieurs réponses possibles)\n\nconst displaySentence = (str, func) => {\n  return func(str);\n};\nconsole.log(\n  displaySentence(\"John\", (name) => {\n    return `My name is ${name}.`;\n  })\n);",
+		"options": [
+			"La fonction \"displaySentence\" est une fonction anonyme.",
+			"Il y a une fonction de callback.",
+			"On ne passe pas d'argument à la fonction anonyme.",
+			"La fonction \"displaySentence\" ne retourne rien.",
+			"aucune de ces réponses"
+		],
+		"answer": ["Il y a une fonction de callback."]
+	},
+	{
+		"id": 55,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(displayLetters(\"O\", displaySingleLetter));\n\nconst displaySingleLetter = () => {\n  return \"Z\";\n};",
+		"options": ["ZO", "OZ", "ZZ", "OO", "ZZO", "aucune de ces réponses"],
+		"answer": "ZO"
+	},
+	{
+		"id": 56,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter, func) => {\n  const letters = func() + letter;\n  return letters;\n};\nconsole.log(\n  displayLetters(\"K\", () => {\n    return \"A\";\n  })\n);",
+		"options": ["KA", "AK", "A", "K", "AKA", "aucune de ces réponses"],
+		"answer": "AK"
+	},
+	{
+		"id": 57,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  const letters = func(\"M\") + letter1;\n  return letters;\n};\nconsole.log(displayLetters(\"R\", (letter2) => {\n  return letter2 + \"U\";\n}));",
+		"options": ["MR", "MU", "MRU", "MUR", "RMU", "aucune de ces réponses"],
+		"answer": "MR"
+	},
+	{
+		"id": 58,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst displayLetters = (letter1, func) => {\n  let letters = func(\"Q\") + func(\"F\");\n  return letters;\n};\nconsole.log(\n  displayLetters(\"E\", (letter2) => {\n    return letter2 + \"Y\";\n  })\n);",
+		"options": [
+			"EQFY",
+			"EQYFY",
+			"QFEY",
+			"QFY",
+			"QYFY",
+			"EQYEFY",
+			"QF",
+			"aucune de ces réponses"
+		],
+		"answer": "QFY"
+	},
+	{
+		"id": 59,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Le Reacteur\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
+		"options": [
+			"name",
+			"name.bootcamp",
+			"bootcamp(name)",
+			"bootcamp.name",
+			"bootcamp[name]",
+			"aucune de ces réponses"
+		],
+		"answer": "bootcamp.name"
+	},
+	{
+		"id": 60,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher 32 ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};\nconsole.log(?);",
+		"options": [
+			"bootcamp[\"numberOfStudents\"]",
+			"bootcamp[numberOfStudents]",
+			"bootcamp.[\"numberOfStudents\"]",
+			"bootcamp.(\"numberOfStudents\")",
+			"bootcamp.(numberOfStudents)",
+			"aucune de ces réponses"
+		],
+		"answer": "bootcamp[\"numberOfStudents\"]"
+	},
+	{
+		"id": 61,
+		"question": "Parmi les propositions suivantes, lesquelles permettent d'ajouter à l'objet \"bootcamp\" la clé \"skills\" ayant pour valeur \"[\"JavaScript\", \"React\"]\" ? (plusieurs réponses possibles)\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"]\n};",
+		"options": [
+			"bootcamp[skills] = [\"JavaScript\", \"React\"];",
+			"bootcamp.(skills) = [\"JavaScript\", \"React\"];",
+			"bootcamp.[skills] = [\"JavaScript\", \"React\"];",
+			"bootcamp.skills = [\"JavaScript\", \"React\"];",
+			"bootcamp.\"skills\" = [\"JavaScript\", \"React\"];",
+			"bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];",
+			"aucune de ces réponses"
+		],
+		"answer": [
+			"bootcamp.skills = [\"JavaScript\", \"React\"];",
+			"bootcamp[\"skills\"] = [\"JavaScript\", \"React\"];"
+		]
+	},
+	{
+		"id": 62,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Paris\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"]\n};\nconst keyName = \"city\";\nconsole.log(?);",
+		"options": [
+			"bootcamp(keyName)",
+			"bootcamp.keyName",
+			"bootcamp[keyName]",
+			"bootcamp[\"keyName\"]",
+			"bootcamp.\"keyName\"",
+			"aucune de ces réponses"
+		],
+		"answer": "bootcamp[keyName]"
+	},
+	{
+		"id": 63,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour afficher \"Farid\" ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconsole.log(?);",
+		"options": [
+			"bootcamp.leaders[0].name[0]",
+			"bootcamp.leaders.name[0]",
+			"bootcamp.leaders.name",
+			"bootcamp.leaders[0][name]",
+			"bootcamp.leaders[0].name",
+			"aucune de ces réponses"
+		],
+		"answer": "bootcamp.leaders[0].name"
+	},
+	{
+		"id": 64,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nconsole.log(keys);",
+		"options": [
+			"{ 'name', 'city', 'numberOfStudents' }",
+			"{'Le Reacteur', 'Paris', 32}",
+			"['Le Reacteur', 'Paris', 32]",
+			"[ 'name', 'city', 'numberOfStudents' ]",
+			"name, puis city, puis numberOfStudents",
+			"Le Reacteur, puis Paris, puis 32",
+			"aucune de ces réponses"
+		],
+		"answer": "[ 'name', 'city', 'numberOfStudents' ]"
+	},
+	{
+		"id": 65,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32\n};\nconst keys = Object.keys(bootcamp);\nfor (let i = 0; i < keys.length; i++) {\n  console.log(bootcamp[keys[i]]);\n}",
+		"options": [
+			"name, puis city, puis numberOfStudents",
+			"Le Reacteur, puis Paris, puis 32",
+			"name : \"Le Reacteur\", puis city : \"Paris\", puis numberOfStudents : 32",
+			"[ 'Le Reacteur', 'Paris', 32 ]",
+			"[ 'Le Reacteur', 'Paris', '32' ]",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "Le Reacteur, puis Paris, puis 32"
+	},
+	{
+		"id": 66,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      age: 40\n    }\n  ]\n};\nconst names = bootcamp.teachers;\nconsole.log(names);",
+		"options": [
+			"undefined",
+			"[ 'Alexis', 'Brice', 'Corinne' ]",
+			"Alexis, puis Brice, puis Corinne",
+			"aucune de ces réponses"
+		],
+		"answer": "[ 'Alexis', 'Brice', 'Corinne' ]"
+	},
+	{
+		"id": 67,
+		"question": "Dans le code suivant, par quoi faudrait-il remplacer le ? pour pouvoir afficher les âges des leaders dans le terminal?\n\nconst bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  numberOfStudents: 32,\n  teachers: [\"Alexis\", \"Brice\", \"Corinne\"],\n  skills: [\"JavaScript\", \"React\"],\n  leaders: [\n    {\n      name: \"Farid\",\n      age: 32\n    },\n    {\n      name: \"Xavier\",\n      age: 40\n    }\n  ]\n};\nfor (let i = 0; i < bootcamp.leaders.length; i++) {\n  console.log(?);\n}",
+		"options": [
+			"leaders.age[i]",
+			"leaders[i].age",
+			"bootcamp.leaders.age",
+			"leaders.age",
+			"bootcamp.leaders.age[i]",
+			"bootcamp.leaders[i].age",
+			"aucune de ces réponses"
+		],
+		"answer": "bootcamp.leaders[i].age"
+	},
+	{
+		"id": 68,
+		"question": "D'après le code suivant, qu'affichera le terminal ?\n\nconst obj = {\n  a: 1,\n  b: 2,\n  c: 3,\n  d: 4,\n  e: 5,\n  f: 6\n};\nconsole.log(obj.length);",
+		"options": ["0", "5", "6", "7", "12", "aucune de ces réponses"],
+		"answer": "aucune de ces réponses"
+	},
+
+	{
+		"id": 69,
+		"question": "Quelle balise obligatoire, dans un code HTML, permet de déclarer le type du document ?",
+		"options": [
+			"<!HTML type>",
+			"<!DOCUMENT html>",
+			"<!TYPE html>",
+			"<!DOCTYPE html>",
+			"aucune de ces réponses"
+		],
+		"answer": "<!DOCTYPE html>"
+	},
+	{
+		"id": 70,
+		"question": "Dans quel élément HTML insère-t-on la totalité d'une page web ?",
+		"options": [
+			"<body></body>",
+			"<html></html>",
+			"<head></head>",
+			"aucune de ces réponses"
+		],
+		"answer": "<html></html>"
+	},
+	{
+		"id": 71,
+		"question": "Quel élément HTML contient le titre de la page web ?",
+		"options": ["<title></title>", "<meta />", "<header></header>", "<link />"],
+		"answer": "<title></title>"
+	},
+	{
+		"id": 72,
+		"question": "Parmi les syntaxes suivantes, laquelle correspond à une balise auto-fermante ?",
+		"options": [
+			"<img></>",
+			"<img />",
+			"<img></img>",
+			"</img>",
+			"aucune de ces réponses"
+		],
+		"answer": "<img />"
+	},
+	{
+		"id": 73,
+		"question": "Quelles sont les particularités d'une balise de type \"block\" ? (plusieurs réponses possibles)",
+		"options": [
+			"Elle a des marges par défaut.",
+			"Elle se positionne sur une nouvelle ligne.",
+			"Elle adapte sa largeur à son contenu.",
+			"Elle se positionne à côté de la balise qui la précède.",
+			"Elle occupe toute la largeur disponible par défaut.",
+			"Elle occupe toute la hauteur disponible par défaut.",
+			"Sa hauteur et sa largeur sont identiques par défaut."
+		],
+		"answer": [
+			"Elle a des marges par défaut.",
+			"Elle se positionne sur une nouvelle ligne.",
+			"Elle occupe toute la largeur disponible par défaut."
+		]
+	},
+	{
+		"id": 74,
+		"question": "Quelles sont les particularités d'une balise de type \"inline\" ? (plusieurs réponses possibles)",
+		"options": [
+			"Elle se positionne à côté de la balise qui la précède.",
+			"Elle se positionne sur une nouvelle ligne.",
+			"Elle occupe toute la largeur par défaut.",
+			"Elle adapte sa largeur à son contenu.",
+			"Elle a des marges par défaut.",
+			"Les propriétés \"width\" et \"height\" n'ont pas d'effet."
+		],
+		"answer": [
+			"Elle se positionne à côté de la balise qui la précède.",
+			"Elle adapte sa largeur à son contenu.",
+			"Les propriétés \"width\" et \"height\" n'ont pas d'effet."
+		]
+	},
+	{
+		"id": 75,
+		"question": "Quel attribut est obligatoire dans une balise <img> afin d'afficher l'image ?",
+		"options": [
+			"<img alt=\"assets/img/my-pic.jpg\" />",
+			"<img href=\"assets/img/my-pic.jpg\" />",
+			"<img src=\"assets/img/my-pic.jpg\" />",
+			"<img path=\"assets/img/my-pic.jpg\" />",
+			"aucune de ces réponses"
+		],
+		"answer": "<img src=\"assets/img/my-pic.jpg\" />"
+	},
+	{
+		"id": 76,
+		"question": "Parmi les balises suivantes, lesquelles sont utilisées pour créer des listes ?",
+		"options": [
+			"<ul></ul>",
+			"<list></list>",
+			"<li></li>",
+			"<a></a>",
+			"<al></al>",
+			"<lt></lt>"
+		],
+		"answer": ["<ul></ul>", "<li></li>"]
+	},
+	{
+		"id": 77,
+		"question": "Parmi les propositions de code CSS suivantes, lesquelles permettraient d'afficher le texte en rouge ? (plusieurs réponses possibles)",
+		"options": [
+			".container { color: red; }",
+			".p { color: red; }",
+			".text { color: red; }",
+			".container { color: red; }",
+			".text { color: red; }",
+			".p { color: red; }"
+		],
+		"answer": [
+			".container { color: red; }",
+			".p { color: red; }",
+			".text { color: red; }"
+		]
+	},
+	{
+		"id": 78,
+		"question": "Parmi les propositions de code CSS suivantes, laquelle permettrait d'afficher le texte en rouge ?",
+		"options": [
+			"p{ color: red; }",
+			".text { color: red; }",
+			"container { color: red; }",
+			"text { color: red; }"
+		],
+		"answer": "p{ color: red; }"
+	},
+
+	{
+		"id": 79,
+		"question": "Parmi les propositions suivantes, lesquelles sont vraies concernant le code ci-dessous ? (plusieurs réponses possibles)",
+		"code": "<section>\n  <div>\n    <h1></h1>\n    <p></p>\n  </div>\n</section>",
+		"options": [
+			"Toutes les balises sont soeurs.",
+			"Deux des balises sont soeurs.",
+			"Seulement les balises <h1> et <p> sont des descendantes de la balise <section>.",
+			"La balise <section> est un ancêtre de la balise <p>."
+		],
+		"answer": [
+			"Deux des balises sont soeurs.",
+			"La balise <section> est un ancêtre de la balise <p>."
+		]
+	},
+	{
+		"id": 80,
+		"question": "Parmi les propositions suivantes, lesquelles sont vraies concernant le code ci-dessous ? (il n'y a pas de code CSS) (plusieurs réponses possibles)",
+		"code": "<h1>Grand titre</h1>\n<div>\n  <h2>Petit titre</h2>\n  <span>lorem</span>\n  <span>ipsum</span>\n</div>",
+		"options": [
+			"Les éléments <h1> et <h2> seront placés en ligne dans le navigateur.",
+			"Les deux éléments <span> seront placés en ligne dans le navigateur.",
+			"L'élément <div> sera placé sous l'élément <h1> dans le navigateur.",
+			"Les deux éléments <span> seront placés sous l'élément <h2> dans le navigateur."
+		],
+		"answer": [
+			"Les deux éléments <span> seront placés en ligne dans le navigateur.",
+			"L'élément <div> sera placé sous l'élément <h1> dans le navigateur."
+		]
+	},
+	{
+		"id": 81,
+		"question": "Quelles propriétés flexbox faut-il ajouter à la balise <section> afin que les trois éléments <div> soient positionnés en ligne et soient centrés sur l'axe vertical et l'axe horizontal ?",
+		"code": "<section>\n  <div></div>\n  <div></div>\n  <div></div>\n</section>",
+		"options": [
+			"display: flex; flex-direction: row;",
+			"display: flex; justify-content: center;",
+			"display: flex; align-items: center;",
+			"display: flex; justify-content: center; align-items: center;"
+		],
+		"answer": "display: flex; justify-content: center; align-items: center;"
+	},
+	{
+		"id": 82,
+		"question": "Quelle propriété CSS permet de mettre les lettres d'un texte en majuscules ?",
+		"options": [
+			"text-transform: uppercase;",
+			"text-capitalize : true",
+			"text-decoration: capitalize;",
+			"text-style : uppercase",
+			"aucune de ces réponses"
+		],
+		"answer": "text-transform: uppercase;"
+	},
+	{
+		"id": 83,
+		"question": "Que permettent de faire les propriétés CSS suivantes ?\n-webkit-font-smoothing: antialiased;\n-moz-osx-font-smoothing: grayscale;",
+		"options": [
+			"Éviter que les textes ne disparaissent en scrollant sur la page web.",
+			"Améliorer les couleurs des images en les rendant plus vives.",
+			"Lisser les polices.",
+			"Permettre d'avoir un scroll moins saccadé sur la page web.",
+			"Améliorer les temps de chargement des images.",
+			"aucune de ces réponses"
+		],
+		"answer": "Lisser les polices."
+	},
+	{
+		"id": 84,
+		"question": "Quelle propriété CSS permet de centrer un texte sur l'axe horizontal ?",
+		"options": [
+			"letter-spacing : center;",
+			"text-transform : center;",
+			"text-decoration : center;",
+			"text-direction : center;",
+			"text-align: center;",
+			"aucune de ces réponses"
+		],
+		"answer": "text-align: center;"
+	},
+	{
+		"id": 85,
+		"question": "Quelles propriétés sont réunies dans la propriété CSS raccourcie \"border\" ? (plusieurs réponses possibles)",
+		"options": [
+			"border-type",
+			"border-width",
+			"border-tint",
+			"border-color",
+			"border-size",
+			"border-design",
+			"border-style"
+		],
+		"answer": ["border-width", "border-color", "border-style"]
+	},
+	{
+		"id": 86,
+		"question": "Parmi les balises HTML suivantes, laquelle n'existe pas ?",
+		"options": [
+			"<main></main>",
+			"<aside></aside>",
+			"<foot></foot>",
+			"<ol></ol>",
+			"<head></head>",
+			"<article></article>",
+			"aucune de ces réponses"
+		],
+		"answer": "<foot></foot>"
+	},
+	{
+		"id": 87,
+		"question": "Parmi les balises HTML suivantes, laquelle n'est pas une balise de type \"block\" ?",
+		"options": [
+			"<p></p>",
+			"<span></span>",
+			"<section></section>",
+			"<h1></h1>",
+			"<li></li>",
+			"<nav></nav>",
+			"aucune de ces réponses"
+		],
+		"answer": "<span></span>"
+	},
+	{
+		"id": 88,
+		"question": "Parmi les syntaxes suivantes, laquelle est correcte ?",
+		"options": [
+			"<p style={color: red;}> Lorem ipsum ...</p>",
+			"<p style=\"color: red;\"> Lorem ipsum ...</p>",
+			"<p style='color: red;'> Lorem ipsum ...</p>",
+			"<p style=color: red;> Lorem ipsum ...</p>"
+		],
+		"answer": "<p style=\"color: red;\"> Lorem ipsum ...</p>"
+	},
+
+	{
+		"id": 89,
+		"question": "Parmi les commandes suivantes, laquelle permet d'initialiser un projet React ?",
+		"options": [
+			"npm create-react-app my-project",
+			"npx react-create-app my-project",
+			"npx create-react-app my-project",
+			"npm react-create-app my-project",
+			"aucune de ces réponses"
+		],
+		"answer": "npx create-react-app my-project"
+	},
+	{
+		"id": 90,
+		"question": "Parmi les commandes suivantes, laquelle permet de démarrer le serveur de développement pour un projet React ?",
+		"options": [
+			"npx start",
+			"npx App.js",
+			"npm start",
+			"npm App.js",
+			"aucune de ces réponses"
+		],
+		"answer": "npm start"
+	},
+	{
+		"id": 91,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "function App() {\n  return <div>Hello World</div>;\n}\nexport default App;",
+		"options": ["Hello World", "rien", "une erreur", "aucune de ces réponses"],
+		"answer": "Hello World"
+	},
+	{
+		"id": 92,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "const App = () => { <div>Hello World</div>;\n};\nexport default App;",
+		"options": ["Hello World", "rien", "une erreur", "aucune de ces réponses"],
+		"answer": "rien"
+	},
+	{
+		"id": 93,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "const App = () => {\n  return (\n    <span>Hello world ! </span>\n    <span>It's a React App</span>\n  );\n};\nexport default App;",
+		"options": [
+			"Hello world ! It's a React App",
+			"rien",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "une erreur"
+	},
+	{
+		"id": 94,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport User from \"./User\";\nconst App = () => {\n  return (\n    <div>\n      <span>Hello world ! </span>\n      <span>It's a React App</span>\n      <User />\n    </div>\n  );\n};\nexport default App;\n\n// User.js\nconst User = () => {\n  return <span> made by John</span>;\n};\nexport default User;",
+		"options": [
+			"Hello world ! It's a React App",
+			"Hello world ! It's a React App made by John",
+			"rien",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "Hello world ! It's a React App made by John"
+	},
+	{
+		"id": 95,
+		"question": "Par quoi faut-il remplacer le ? dans App.js pour pouvoir afficher \"name : Billie\" ?",
+		"code": "// App.js\nimport User from \"./User\";\nconst App = () => {\n  return <User ? />;\n};\nexport default App;\n\n// User.js\nconst User = props => {\n  return <p>name : {props.username}</p>;\n};\nexport default User;",
+		"options": [
+			"props=\"Billie\"",
+			"name=\"Billie\"",
+			"username=\"Billie\"",
+			"User=\"Billie\"",
+			"aucune de ces réponses"
+		],
+		"answer": "username=\"Billie\""
+	},
+	{
+		"id": 96,
+		"question": "D'après le code suivant, combien de boutons s'afficheront ?",
+		"code": "// App.js\nimport Button from \"./Button\";\nconst App = () => {\n  return (\n    <div>\n      <Button />\n      <Button />\n    </div>\n  );\n};\nexport default App;\n\n// Button.js\nconst Button = () => {\n  return (\n    <>\n      <button>it's a button</button>\n      <button>it's a button</button>\n      <button>it's a button</button>\n    </>\n  );\n};\nexport default Button;",
+		"options": ["aucun", "1", "2", "3", "6", "+de6", "aucune de ces réponses"],
+		"answer": "6"
+	},
+	{
+		"id": 97,
+		"question": "D'après le code suivant, combien de boutons s'afficheront ?",
+		"code": "// App.js\nconst App = () => {\n  return (\n    <div>\n      <GreenButton />\n      <RedButton />\n      <BlueButton />\n    </div>\n  );\n};\nexport default App;\n\n// GreenButton.js\nconst GreenButton = () => {\n  return (\n    <>\n      <button className=\"green-btn\">it's a green button</button>\n      <button className=\"green-btn\">it's a green button</button>\n    </>\n  );\n};\nexport default GreenButton;\n\n// RedButton.js\nconst RedButton = () => {\n  return (\n    <>\n      <button className=\"red-btn\">it's a red button</button>\n    </>\n  );\n};\nexport default RedButton;\n\n// BlueButton.js\nconst BlueButton = () => {\n  return (\n    <>\n      <button className=\"blue-btn\">it's a blue button</button>\n      <button className=\"blue-btn\">it's a blue button</button>\n    </>\n  );\n};\nexport default BlueButton;",
+		"options": ["1", "2", "3", "4", "5", "+de5", "aucune de ces réponses"],
+		"answer": "5"
+	},
+	{
+		"id": 98,
+		"question": "Par quoi faut-il remplacer le ? pour afficher le titre \"My first React App\" (en utilisant la variable \"title\") ?",
+		"code": "const title = \"My first React App\";\nconst App = () => {\n  return <h1>?</h1>;\n};\nexport default App;",
+		"options": [
+			"title",
+			"(title)",
+			"{title}",
+			"[title]",
+			"On ne peut pas afficher ce titre.",
+			"aucune de ces réponses"
+		],
+		"answer": "{title}"
+	},
+
+	{
+		"id": 99,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport Text from \"./Text\";\nfunction App() {\n  return (\n    <div>\n      <Text>Lorem ipsum</Text>\n    </div>\n  );\n}\nexport default App;\n\n// Text.js\nconst Text = () => {\n  return <p>Hello World</p>;\n}\nexport default Text;",
+		"options": [
+			"Lorem ipsum",
+			"Hello World",
+			"Lorem ipsum et Hello World",
+			"Hello World et Lorem ipsum",
+			"aucune de ces réponses"
+		],
+		"answer": "Hello World"
+	},
+	{
+		"id": 100,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport Text from \"./Text\";\nfunction App() {\n  return <Text display={true} />;\n}\nexport default App;\n\n// Text.js\nconst Text = (props) => {\n  return <p>{props.display && \"My text\"}</p>;\n}\nexport default Text;",
+		"options": [
+			"Lorem ipsum",
+			"My text",
+			"Lorem ipsum My text",
+			"My text Lorem ipsum",
+			"rien",
+			"aucune de ces réponses"
+		],
+		"answer": "My text"
+	},
+	{
+		"id": 101,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport Text from \"./Text\";\nfunction App() {\n  return (\n    <div>\n      <Text content=\"Lorem ipsum \" display={true}></Text>\n    </div>\n  );\n}\nexport default App;\n\n// Text.js\nconst Text = (props) => {\n  return <div>{props.display === false ? \"No text\" : props.content}</div>;\n}\nexport default Text;",
+		"options": [
+			"No text",
+			"Lorem ipsum",
+			"Lorem ipsum No text",
+			"No text Lorem ipsum",
+			"rien",
+			"aucune de ces réponses"
+		],
+		"answer": "Lorem ipsum"
+	},
+	{
+		"id": 102,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport Text from \"./Text\";\nfunction App() {\n  return (\n    <div>\n      <Text display={true}></Text>\n      <Text display={false}></Text>\n      <Text display={true}></Text>\n    </div>\n  );\n}\nexport default App;\n\n// Text.js\nconst Text = (props) => {\n  return <span>{props.display === true ? \"Lorem ipsum \" : \"No text \"}</span>;\n}\nexport default Text;",
+		"options": [
+			"rien",
+			"Lorem ipsum Lorem ipsum Lorem ipsum",
+			"No text No text No text",
+			"Lorem ipsum No text Lorem ipsum",
+			"No text Lorem ipsum No text",
+			"Lorem ipsum Lorem ipsum",
+			"No text",
+			"aucune de ces réponses"
+		],
+		"answer": "Lorem ipsum No text Lorem ipsum"
+	},
+	{
+		"id": 103,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const tab = [10, 20, 30];\nconst result = tab.map((elem, index) => {\n  return elem - 2;\n});\nconsole.log(result);",
+		"options": [
+			"[10,20,30]",
+			"102030",
+			"[8]",
+			"8",
+			"[8,18,28]",
+			"81828",
+			"aucune de ces réponses"
+		],
+		"answer": "[8,18,28]"
+	},
+	{
+		"id": 104,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const tab = [\"a\", \"b\", \"c\"];\nconst result = tab.map((elem, index) => {\n  return index;\n});\nconsole.log(result);",
+		"options": [
+			"[0,1,2]",
+			"[ 'a', 'b', 'c' ]",
+			"012",
+			"'a' 'b' 'c'",
+			"aucune de ces réponses"
+		],
+		"answer": "[0,1,2]"
+	},
+	{
+		"id": 105,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const bootcamp = {\n  name: \"Le Reacteur\",\n  city: \"Paris\",\n  skills: \"JavaScript & React\",\n  leaders: [\"Xavier\", \"Farid\"]\n};\nconst { name, city, skills, leaders } = bootcamp;\nconsole.log(skills);",
+		"options": [
+			"Le Reacteur",
+			"Paris",
+			"JavaScript & React",
+			"['Xavier', 'Farid']",
+			"l'objet \"bootcamp\"",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "JavaScript & React"
+	},
+	{
+		"id": 106,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const movie = {\n  director: \"James Cameron\",\n  title: \"Titanic\",\n  year: 1997\n};\nconst { title, year, director } = movie;\nconsole.log(year);",
+		"options": [
+			"Titanic",
+			"1997",
+			"James Cameron",
+			"l'objet \"movie\"",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "1997"
+	},
+	{
+		"id": 107,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "const data = [\"Titanic \", \"1997 \", \"James Cameron \"];\nconst movie = [\"Dirty Dancing\", \"1987\", \"Emile Ardolino\"];\nfunction App() {\n  return (\n    <p>\n      {data.map((item, index) => {\n        return <span key={index}>{item}</span>;\n      })}\n    </p>\n  );\n}\nexport default App;",
+		"options": [
+			"Titanic 1997 James Cameron Dirty Dancing 1987 Emile Ardolino",
+			"Dirty Dancing 1987 Emile Ardolino Titanic 1997 James Cameron",
+			"Titanic 1997 James Cameron",
+			"Dirty Dancing 1987 Emile Ardolino",
+			"rien",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "Titanic 1997 James Cameron"
+	},
+	{
+		"id": 108,
+		"question": "D'après le code suivant, qu'affichera la page Web ?",
+		"code": "// App.js\nimport Title from \"./Title\";\nconst movie = [\"Titanic \", \"1997 \", \"James Cameron \"];\nfunction App() {\n  return (\n    <p>\n      {movie.map((item, index) => {\n        return <Title key={index} item={item}> </Title>;\n      })}\n    </p>\n  );\n}\nexport default App;\n\n// Title.js\nconst Title = (props) => {\n  return <span>{props.item.year}</span>;\n}\nexport default Title;",
+		"options": [
+			"Titanic 1997 James Cameron",
+			"Titanic",
+			"1997",
+			"James Cameron",
+			"aucun texte ne s'affichera",
+			"aucune de ces réponses"
+		],
+		"answer": "aucun texte ne s'affichera"
+	},
+
+	{
+		"id": 109,
+		"question": "Parmi les propositions suivantes, lesquelles sont correctes ? (plusieurs réponses possibles)",
+		"options": [
+			"Un composant ne peut pas modifier les props qu'il reçoit.",
+			"Un composant ne peut pas modifier ses propres états.",
+			"Un composant peut modifier les props qu'il reçoit.",
+			"Un composant peut modifier ses propres états.",
+			"Lorsqu'un composant modifie un de ses états, il déclenche automatiquement un rafraîchissement."
+		],
+		"answer": [
+			"Un composant ne peut pas modifier les props qu'il reçoit.",
+			"Un composant peut modifier ses propres états.",
+			"Lorsqu'un composant modifie un de ses états, il déclenche automatiquement un rafraîchissement."
+		]
+	},
+	{
+		"id": 110,
+		"question": "D'après le code suivant, quel nombre s'affichera si l'on clique une seule fois sur le bouton ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": ["0", "2", "10", "12", "102", "aucune de ces réponses"],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 111,
+		"question": "D'après le code suivant, quel nombre s'affichera si l'on clique une seule fois sur le bouton ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"5",
+			"10",
+			"12",
+			"20",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 112,
+		"question": "De quelle couleur sera le compteur après avoir cliqué 2 fois sur le bouton ? (la couleur par défaut du navigateur étant noir)",
+		"code": "// App.css\n.a {\n  color: green;\n}\n.b {\n  color: red;\n}\n.c {\n  color: blue;\n}",
+		"options": [
+			"vert",
+			"rouge",
+			"bleu",
+			"violet",
+			"noir",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 113,
+		"question": "De quelle couleur sera le compteur après avoir cliqué 1 fois sur le bouton ? (la couleur par défaut du navigateur étant noir)",
+		"code": "// App.css\n.a {\n  color: green;\n}\n.b {\n  color: red;\n}\n.c {\n  color: blue;\n}",
+		"options": [
+			"vert",
+			"rouge",
+			"bleu",
+			"violet",
+			"noir",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 114,
+		"question": "Quel texte s'affichera après avoir cliqué 1 fois sur le bouton ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"Paris",
+			"Hello",
+			"Farid",
+			"bootcamp",
+			"Reacteur",
+			"aucun texte"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 115,
+		"question": "D'après le code suivant, quel texte sera affiché dans l'input au chargement de la page ? (ne pas tenir compte de l'absence des déclarations de fonctions)",
+		"code": "import { useState } from \"react\";\nfunction App() {\n  const [email, setEmail] = useState(\"@\");\n  return (\n    <form >\n      <input placeholder=\"email\" type=\"text\"\n        name=\"userEmail\"\n        value={email} />\n      <input type=\"submit\" value=\"Submit\" />\n    </form>\n  );\n}\nexport default App;",
+		"options": ["@", "email", "text", "userEmail", "aucun texte"],
+		"answer": "@"
+	},
+	{
+		"id": 116,
+		"question": "Par quoi faut-il remplacer \"?\" dans la fonction \"handleEmailChange\" pour pouvoir assigner la valeur de l'input à \"value\" ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"event.target.email",
+			"target.event.value",
+			"target.event.email",
+			"event.value.value",
+			"event.target.value",
+			"value.target.event",
+			"aucune de ces réponses"
+		],
+		"answer": "event.target.value"
+	},
+	{
+		"id": 117,
+		"question": "Par quoi faut-il remplacer le ? dans la fonction \"handleSubmit\" pour empêcher le comportement par défaut du formulaire au clic (rafraîchissement de la page) ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"event.prevent.default( )",
+			"event.preventDefault( )",
+			"event(preventDefault)",
+			"event.Preventdefault( )",
+			"preventDefault(event)",
+			"event.preventDefault",
+			"aucune de ces réponses"
+		],
+		"answer": "event.preventDefault( )"
+	},
+	{
+		"id": 118,
+		"question": "Parmi les propositions suivantes, lesquelles sont correctes ? (ne pas tenir compte de l'absence des déclarations de fonctions) (plusieurs réponses possibles)",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"La fonction \"onChange\" est déclenchée lorsque l'utilisateur tape une lettre dans l'input.",
+			"La fonction \"onChange\" est déclenchée lorsque l'utilisateur supprime un caractère dans l'input.",
+			"Le clic sur le 3ème input déclenche les fonctions \"onChange\".",
+			"Le clic sur le 3ème input déclenche la fonction \"onSubmit\".",
+			"Le clic sur le 3ème input déclenche les fonctions \"handleEmailChange\" et \"handlePasswordChange\""
+		],
+		"answer": [
+			"La fonction \"onChange\" est déclenchée lorsque l'utilisateur tape une lettre dans l'input.",
+			"La fonction \"onChange\" est déclenchée lorsque l'utilisateur supprime un caractère dans l'input.",
+			"Le clic sur le 3ème input déclenche la fonction \"onSubmit\"."
+		]
+	},
+
+	{
+		"id": 119,
+		"question": "Combien de lignes (ou balises <p>) affichera la page Web ?",
+		"code": "import { useState } from \"react\";\nfunction App() {\n  const [tasks, setTasks] = useState([\n    \"Learn JavaScript\", \"Learn React\", \"Learn React Native\"\n  ]);\n  return (\n    <div>\n      {tasks.map((item, index) => {\n        return <p key={index}>{item}</p>;\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": ["0", "1", "2", "3", "4", "5", "+de5", "aucune de ces réponses"],
+		"answer": "3"
+	},
+	{
+		"id": 120,
+		"question": "Combien de lignes (ou balises <p>) affichera la page Web ?",
+		"code": "import { useState } from \"react\";\nfunction App() {\n  const [tasks, setTasks] = useState([]);\n  return (\n    <div>\n      {tasks.map((item, index) => {\n        return <p key={index}>{item}</p>;\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": ["0", "1", "2", "3", "4", "5", "+de5", "aucune de ces réponses"],
+		"answer": "0"
+	},
+	{
+		"id": 121,
+		"question": "D'après le code suivant, combien de chiffres s'afficheront ?",
+		"code": "import { useState } from \"react\";\nfunction App() {\n  const [counters, setCounters] = useState([0, 0, 0, 0]);\n  return (\n    <div>\n      {counters.map((item, index) => {\n        return (\n          <div key={index}>\n            <p>1</p>\n            <p>{item}</p>\n          </div>\n        );\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"4",
+			"8",
+			"10",
+			"12",
+			"+de12",
+			"aucune de ces réponses"
+		],
+		"answer": "8"
+	},
+	{
+		"id": 122,
+		"question": "D'après le code suivant, combien de chiffres s'afficheront ?",
+		"code": "import { useState } from \"react\";\nfunction App() {\n  const [counters, setCounters] = useState([0, 0]);\n  return (\n    <div>\n      <p>1</p>\n      {counters.map((item, index) => {\n        return (\n          <div key={index}>\n            <p>1</p>\n            <p>item</p>\n          </div>\n        );\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"8",
+			"9",
+			"aucune des ces réponses"
+		],
+		"answer": "5"
+	},
+	{
+		"id": 123,
+		"question": "Par quoi peut-on remplacer le ? (dans Task.js) pour pouvoir déstructurer les props ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport { useState } from \"react\";\nimport Task from \"./Task\";\nfunction App() {\n  const [tasks, setTasks] = useState([\n    \"Learn JavaScript\", \"Learn React\", \"Learn React Native\"\n  ]);\n  return (\n    <div>\n      <Task tasks={tasks} setTasks={setTasks} />\n    </div>\n  );\n}\nexport default App;\n\n// Task.js\nconst Task = (props) => {\n  ?\n  return <p>task</p>;\n}\nexport default Task;",
+		"options": [
+			"props = [setTasks, tasks];",
+			"props = { setTasks, tasks };",
+			"const { setTasks, tasks } = props;",
+			"const [tasks, setTasks] = props;",
+			"props = { tasks, setTasks };",
+			"const { tasks, setTasks } = props;",
+			"props = [tasks, setTasks];",
+			"const [setTasks, tasks] = props;"
+		],
+		"answer": [
+			"const { setTasks, tasks } = props;",
+			"const { tasks, setTasks } = props;"
+		]
+	},
+	{
+		"id": 124,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const tab = [10, 20, 30];\nconst newTab = tab;\nnewTab.push(40);\nconsole.log(tab);",
+		"options": [
+			"[10,20,30]",
+			"[10,20,30,40]",
+			"[40]",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "[10,20,30,40]"
+	},
+	{
+		"id": 125,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const tab = [10, 20, 30];\nconst newTab = tab;\nif (tab === newTab) {\n  console.log(\"true\");\n}\nif (tab !== newTab) {\n  console.log(\"false\");\n}",
+		"options": ["true", "false", "true & false", "aucune de ces réponses"],
+		"answer": "true"
+	},
+	{
+		"id": 126,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const tab = [10, 20, 30];\nconst newTab = [...tab];\nnewTab.push(40);\nconsole.log(tab);",
+		"options": [
+			"[10,20,30]",
+			"[10,20,30,40]",
+			"[40]",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "[10,20,30]"
+	},
+	{
+		"id": 127,
+		"question": "D'après le code suivant, de quelle couleur sera le texte affiché ?",
+		"code": "// App.js\nimport Title from \"./Title\";\nimport \"./App.css\";\nfunction App() {\n  return (\n    <div>\n      <Title color=\"dark\" display={true}/>\n    </div>\n  );\n}\nexport default App;\n\n// Title.js\nconst Title = (props) => {\n  return (\n    <h2 className={\n      props.display && props.color === \"dark\" ? \"brown\" : \"chocolate\"\n    }>\n      Hello World\n    </h2>\n  );\n}\nexport default Title;\n\n// App.css\n.dark {\n  color: black;\n}\n.brown {\n  color: brown;\n}\n.chocolate {\n  color: chocolate;\n}",
+		"options": [
+			"black",
+			"brown",
+			"chocolate",
+			"ce code provoquera une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "brown"
+	},
+	{
+		"id": 128,
+		"question": "D'après le code suivant, de quelle couleur sera le texte affiché ?",
+		"code": "// App.js\nimport Title from \"./Title\";\nimport \"./App.css\";\nfunction App() {\n  return (\n    <div>\n      <Title color=\"chocolate\"/>\n    </div>\n  );\n}\nexport default App;\n\n// Title.js\nconst Title = (props) => {\n  return (\n    <h2 {props.color === \"chocolate\" && className=\"chocolate\"}>\n      Hello World\n    </h2>\n  );\n}\nexport default Title;\n\n// App.css\n.dark {\n  color: black;\n}\n.brown {\n  color: brown;\n}\n.chocolate {\n  color: chocolate;\n}",
+		"options": [
+			"black",
+			"brown",
+			"chocolate",
+			"ce code provoquera une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "ce code provoquera une erreur"
+	},
+
+	{
+		"id": 129,
+		"question": "D'après le code suivant, combien de \"Hello\" affichera la console du navigateur au lancement du projet ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"\"Hello\" s'affichera à l'infini.",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 130,
+		"question": "D'après le code suivant, et après avoir cliqué une fois sur le bouton, combien de \"Hello\" affichera la console du navigateur ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"\"Hello\" s'affichera à l'infini.",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 131,
+		"question": "D'après le code suivant, combien de \"Hello\" affichera la console du navigateur au lancement du projet ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"\"Hello\" s'affichera à l'infini",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 132,
+		"question": "D'après le code suivant, et après avoir cliqué 2 fois sur le bouton, combien de \"Hello\" affichera la console du navigateur ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"\"Hello\" s'affichera à l'infini",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 133,
+		"question": "D'après le code suivant, et après avoir cliqué 2 fois sur le bouton, combien de \"Hello\" affichera la console du navigateur ?",
+		"code": "// Code non fourni dans la question originale",
+		"options": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"\"Hello\" s'affichera à l'infini",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 134,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (on suppose que l'API interrogée retourne un tableau contenant une liste de films)",
+		"code": "import { useState, useEffect } from \"react\";\nimport axios from \"axios\";\nfunction App() {\n  const [movies, setMovies] = useState();\n  const fetchData = async () => {\n    const response = await axios.get(\"http://movies.com\");\n    setMovies(response.data);\n  };\n  useEffect(() => {\n    fetchData();\n  }, []);\n  return (\n    <div className=\"App\">\n      <h1>Movies</h1>\n      {movies.map((item, index) => {\n        return <p key={index}>{item}</p>;\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"rien",
+			"la liste de films",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "une erreur"
+	},
+	{
+		"id": 135,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (on suppose que l'API interrogée retourne un tableau contenant une liste de films)",
+		"code": "import { useState, useEffect } from \"react\";\nimport axios from \"axios\";\nfunction App() {\n  const [movies, setMovies] = useState();\n  const [isLoading, setIsLoading] = useState(true);\n  const fetchData = async () => {\n    const response = await axios.get(\"http://movies.com\");\n    setMovies(response.data);\n  };\n  useEffect(() => {\n    fetchData();\n  }, []);\n  return isLoading ? (\n    <p>Downloading...</p>\n  ) : (\n    <div className=\"App\">\n      <h1>Movies</h1>\n      {movies.map((item, index) => {\n        return <p key={index}>{item}</p>;\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"rien",
+			"\"Downloading...\"",
+			"la liste de films",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Downloading...\""
+	},
+	{
+		"id": 136,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (on suppose que l'API interrogée retourne un tableau contenant une liste de films)",
+		"code": "import { useState, useEffect } from \"react\";\nimport axios from \"axios\";\nfunction App() {\n  const [movies, setMovies] = useState();\n  const [isLoading, setIsLoading] = useState(true);\n  const fetchData = async () => {\n    const response = await axios.get(\"http://movies.com\");\n    setMovies(response.data);\n    setIsLoading(false);\n  };\n  useEffect(() => {\n    fetchData();\n  }, []);\n  return isLoading ? (\n    <p>Downloading...</p>\n  ) : (\n    <div className=\"App\">\n      <h1>Movies</h1>\n      {movies.map((item, index) => {\n        return <p key={index}>{item}</p>;\n      })}\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"rien",
+			"\"Downloading...\"",
+			"la liste de films",
+			"une erreur",
+			"aucune de ces réponses"
+		],
+		"answer": "la liste de films"
+	},
+	{
+		"id": 137,
+		"question": "D'après cet extrait de code, quand sera exécuté le console.log() ?",
+		"code": "useEffect(() => {\n  console.log(\"Effect executed\");\n}, []);",
+		"options": [
+			"à chaque modification d'un état",
+			"au moment de la création du composant et à chaque modification d'un état",
+			"uniquement au moment de la création du composant",
+			"aucune de ces réponses"
+		],
+		"answer": "uniquement au moment de la création du composant"
+	},
+	{
+		"id": 138,
+		"question": "D'après cet extrait de code, quand sera exécuté le console.log() ?",
+		"code": "useEffect(() => {\n  console.log(\"Effect executed\");\n})",
+		"options": [
+			"uniquement au moment de la création du composant",
+			"à chaque modification d'un état",
+			"au moment de la création du composant et à chaque modification d'un état",
+			"aucune de ces réponses"
+		],
+		"answer": "au moment de la création du composant et à chaque modification d'un état"
+	},
+
+	{
+		"id": 139,
+		"question": "D'après le code suivant, par quoi peut-on remplacer le ? (dans Counter.js) pour déstructurer les props ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport { useState, useEffect } from \"react\";\nimport Counter from \"./Counter\";\nfunction App() {\n  const [counter, setCounter] = useState(0);\n  return (\n    <div>\n      <Counter counter={counter} setCounter={setCounter} />\n    </div>\n  );\n}\nexport default App;\n\n// Counter.js\nconst Counter = (props) => {\n  ?\n  return <h1>My counter</h1>;\n}\nexport default Counter;",
+		"options": [
+			"const { counter, setCounter } = props;",
+			"const [ counter, func ] = props;",
+			"const { setCounter, counter } = props;",
+			"const [ counter, setCounter ] = props;",
+			"const [ setCounter, counter ] = props;",
+			"const { counter, func } = props;"
+		],
+		"answer": [
+			"const { counter, setCounter } = props;",
+			"const { setCounter, counter } = props;"
+		]
+	},
+	{
+		"id": 140,
+		"question": "D'après le code suivant, par quoi peut-on remplacer le ? (dans Counter.js) pour déstructurer les props ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport { useState, useEffect } from \"react\";\nimport Counter from \"./Counter\";\nfunction App() {\n  const [counter, setCounter] = useState(0);\n  return (\n    <div>\n      <Counter counter={counter} setCounter={setCounter} />\n    </div>\n  );\n}\nexport default App;\n\n// Counter.js\nconst Counter = (?) => {\n  return <h1>My Counter</h1>;\n}\nexport default Counter;",
+		"options": [
+			"props = { counter, setCounter }",
+			"[ setCounter, counter ]",
+			"[ counter, setCounter ]",
+			"props = { setCounter, counter }",
+			"{ counter, setCounter }",
+			"{ setCounter, counter }"
+		],
+		"answer": ["{ counter, setCounter }", "{ setCounter, counter }"]
+	},
+	{
+		"id": 141,
+		"question": "D'après le code suivant, par quoi peut-on remplacer le ? (dans App.js) pour pouvoir passer le contenu de l'objet \"infos\" au composant Movie ?",
+		"code": "// App.js\nimport Movie from \"./Movie\";\nfunction App() {\n  const infos = {\n    title: \"Movie title\",\n    year: \"2000\"\n  };\n  return (\n    <div>\n      <Movie ? />\n    </div>\n  );\n}\nexport default App;\n\n// Movie.js\nconst Movie = (props) => {\n  return (\n    <>\n      <h1>{props.infos.title}</h1>\n      <p>{props.infos.year}</p>\n    </>\n  );\n}\nexport default Movie;",
+		"options": [
+			"title={infos.title} year={infos.year}",
+			"{...infos}",
+			"infos={infos}",
+			"props={...infos}",
+			"aucune de ces réponses"
+		],
+		"answer": "infos={infos}"
+	},
+	{
+		"id": 142,
+		"question": "D'après le code suivant, par quoi peut-on remplacer le ? (dans App.js) pour pouvoir passer le contenu de l'objet \"infos\" au composant Movie ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport Movie from \"./Movie\";\nfunction App() {\n  const infos = {\n    title: \"Movie title\",\n    year: \"2000\"\n  };\n  return (\n    <div>\n      <Movie ? />\n    </div>\n  );\n}\nexport default App;\n\n// Movie.js\nconst Movie = (props) => {\n  return (\n    <>\n      <h1>{props.title}</h1>\n      <p>{props.year}</p>\n    </>\n  );\n}\nexport default Movie;",
+		"options": [
+			"{...infos}",
+			"props={...infos}",
+			"infos={infos}",
+			"title={infos.title} year={infos.year}"
+		],
+		"answer": ["{...infos}", "title={infos.title} year={infos.year}"]
+	},
+	{
+		"id": 143,
+		"question": "Dans le code suivant, qu'affichera la page Web ? (on suppose que l'API interrogée retourne une liste de films)",
+		"code": "import { useState, useEffect } from \"react\";\nimport axios from \"axios\";\nfunction App() {\n  const [data, setData] = useState();\n  const [isLoading, setIsLoading] = useState(true);\n  const fetchData = async () => {\n    const response = await axios.get(\"http://movies-api.com\");\n    setData(response.data);\n    setIsLoading(false);\n  };\n  useEffect(() => {\n    console.log(\"useEffect\");\n  }, []);\n  return isLoading ? (\n    <p>Downloading...</p>\n  ) : (\n    <div>\n      <p>Hello World</p>\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"useEffect",
+			"Downloading...",
+			"Hello World",
+			"rien",
+			"la liste de films",
+			"aucune de ces réponses"
+		],
+		"answer": "Downloading..."
+	},
+	{
+		"id": 144,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (le texte est noir par défaut dans le navigateur)",
+		"code": "// App.js\nimport { useState } from \"react\";\nimport \"./App.css\";\nfunction App() {\n  const [display, setDisplay] = useState(true);\n  const [color, setColor] = useState(\"dark\");\n  const [title1, setTitle1] = useState(\"Title 1\");\n  const [title2, setTitle2] = useState(\"Title 2\");\n  return (\n    <div>\n      {display === false ? (\n        <p className=\"red\">{title1}</p>\n      ) : (\n        <p className=\"blue\">{title2}</p>\n      )}\n    </div>\n  );\n}\nexport default App;\n\n// App.css\n.blue {\n  color: blue;\n}\n.red {\n  color: red;\n}",
+		"options": [
+			"\"Title 1\" en rouge",
+			"\"Title 2\" en noir",
+			"\"Title 1\" en noir",
+			"\"Title 2\" en bleu",
+			"\"Title 1\" en bleu",
+			"\"Title 2\" en rouge",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Title 2\" en bleu"
+	},
+	{
+		"id": 145,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (le texte est noir par défaut dans le navigateur)",
+		"code": "// App.js\nimport { useState } from \"react\";\nimport \"./App.css\";\nfunction App() {\n  const [display, setDisplay] = useState(true);\n  const [color, setColor] = useState(\"dark\");\n  const [title1, setTitle1] = useState(\"Title 1\");\n  const [title2, setTitle2] = useState(\"Title 2\");\n  return (\n    <div>\n      {display === true ? (\n        <p className={color === \"dark\" ? \"red\" : \"\"}>{title2}</p>\n      ) : (\n        <p className=\"blue\">{title1}</p>\n      )}\n    </div>\n  );\n}\nexport default App;\n\n// App.css\n.blue {\n  color: blue;\n}\n.red {\n  color: red;\n}",
+		"options": [
+			"\"Title 1\" en noir",
+			"\"Title 2\" en rouge",
+			"\"Title 2\" en noir",
+			"\"Title 2\" en bleu",
+			"\"Title 1\" en rouge",
+			"\"Title 1\" en bleu",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Title 2\" en rouge"
+	},
+	{
+		"id": 146,
+		"question": "D'après le code suivant, qu'affichera la page Web ? (le texte est noir par défaut dans le navigateur)",
+		"code": "// App.js\nimport { useState } from \"react\";\nimport \"./App.css\";\nfunction App() {\n  const [display, setDisplay] = useState(false);\n  const [color, setColor] = useState(\"dark\");\n  const [title1, setTitle1] = useState(\"Title 1\");\n  const [title2, setTitle2] = useState(\"Title 2\");\n  return display !== true ? (\n    <p className={color !== \"dark\" ? \"red\" : \"\"}>{title2}</p>\n  ) : (\n    <p className={color === \"dark\" ? \"red\" : \"blue\"}>{title1}</p>\n  );\n}\nexport default App;\n\n// App.css\n.blue {\n  color: blue;\n}\n.red {\n  color: red;\n}",
+		"options": [
+			"\"Title 2\" en bleu",
+			"\"Title 1\" en noir",
+			"\"Title 2\" en rouge",
+			"\"Title 1\" en rouge",
+			"\"Title 2\" en noir",
+			"\"Title 1\" en bleu",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Title 2\" en noir"
+	},
+	{
+		"id": 147,
+		"question": "Parmi les séries de propositions suivantes, laquelle permet d'initialiser un projet backend dans le dossier nommé \"my-project\" ?",
+		"options": [
+			"mdir my-project\ncd my-project\nnpm install",
+			"mkdir my-project\ncd my-project\nnpm init -y",
+			"mdir my-project\ncd my-project\nnpm init -y",
+			"mkdir my-project\ncd my-project\nnpm install",
+			"mdir my-project\ncd my-project\nnpx init -y",
+			"aucune de ces réponses"
+		],
+		"answer": "mkdir my-project\ncd my-project\nnpm init -y"
+	},
+	{
+		"id": 148,
+		"question": "Avant le déploiement d'un projet backend sur Northflank, quel script doit être ajouté dans le fichier \"package.json\" ?",
+		"options": [
+			"\"node\" : \"start index.js\"",
+			"\"npm\": \"npm start\"",
+			"\"npm\": \"node index.js\"",
+			"\"start\": \"node index.js\"",
+			"\"start\": \"npm start\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"start\": \"node index.js\""
+	},
+
+	{
+		"id": 149,
+		"question": "Parmi les propositions suivantes, quel package peut-on installer pour avoir de la navigation dans un projet React ?",
+		"options": [
+			"router-dom",
+			"react-router-app",
+			"react-router-dom",
+			"router-app",
+			"react-routing",
+			"react-routing-app",
+			"aucune de ces réponses"
+		],
+		"answer": "react-router-dom"
+	},
+	{
+		"id": 150,
+		"question": "Dans l'extrait de code suivant, que permet de faire cette ligne ?",
+		"code": "import { BrowserRouter as Router} from \"react-router-dom\";\nexport default function App() {\n  return (\n    <Router>\n    </Router>\n  );\n}",
+		"options": [
+			"importer BrowserRouter et le renommer \"Router\"",
+			"importer BrowserRouter et Router",
+			"importer Router se trouvant dans BrowserRouter",
+			"aucune de ces réponses"
+		],
+		"answer": "importer BrowserRouter et le renommer \"Router\""
+	},
+	{
+		"id": 151,
+		"question": "D'après le code suivant, quel titre (h1) affichera l'URL \"http://localhost:3000/users\" ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/welcome\" element={<Home />} />\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Users.js\nconst Users = () => {\n  return <h1>React</h1>;\n}\nexport default Users;",
+		"options": [
+			"Home",
+			"Welcome",
+			"Offers",
+			"Hello",
+			"Users",
+			"React",
+			"aucune de ces réponses"
+		],
+		"answer": "React"
+	},
+	{
+		"id": 152,
+		"question": "D'après le code suivant, quel titre (h1) affichera l'URL \"http://localhost:3000/\" ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/welcome\" element={<Home />} />\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Home.js\nconst Home = () => {\n  return <h1>Hello</h1>;\n}\nexport default Home;",
+		"options": [
+			"Hello",
+			"React",
+			"Welcome",
+			"Users",
+			"Home",
+			"Offers",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 153,
+		"question": "Parmi les propositions suivantes, quelle URL permet d'afficher le titre \"Hello\" ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/welcome\" element={<Home />} />\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Home.js\nconst Home = () => {\n  return <h1>Hello</h1>;\n}\nexport default Home;",
+		"options": [
+			"http://localhost:3000/users",
+			"http://localhost:3000/offers",
+			"http://localhost:3000/",
+			"http://localhost:3000/home",
+			"http://localhost:3000/welcome",
+			"aucune de ces réponses"
+		],
+		"answer": "http://localhost:3000/welcome"
+	},
+	{
+		"id": 154,
+		"question": "D'après le code suivant, par quoi peut-on remplacer le ? (dans Offers.js) pour ajouter un lien vers l'URL \"http://localhost:3000/users\" ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Offers.js\nimport { Link } from \"react-router-dom\";\nfunction Offers() {\n  return (\n    <div>\n      <h1>World</h1>\n      <nav>?</nav>\n    </div>\n  );\n}\nexport default Offers;",
+		"options": [
+			"<Link href=\"/users\">Aller vers la page \"Users\"</Link>",
+			"<Link to=\"/users\">Aller vers la page \"Users\"</Link>",
+			"<Link path=\"/users\">Aller vers la page \"Users\"</Link>",
+			"<Link route=\"/users\">Aller vers la page \"Users\"</Link>",
+			"aucune de ces réponses"
+		],
+		"answer": "<Link to=\"/users\">Aller vers la page \"Users\"</Link>"
+	},
+	{
+		"id": 155,
+		"question": "Parmi les propositions suivantes, quelle URL permet de transmettre l'id \"1234\" à la route \"/user\" ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport User from \"./pages/User\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/user/:id\" element={<User />} />\n      </Routes>\n    </Router>\n  );\n}",
+		"options": [
+			"http://localhost:3000/user/1234",
+			"http://localhost:3000/user/:1234",
+			"http://localhost:3000/user?1234",
+			"http://localhost:3000/1234",
+			"http://localhost:3000/:1234",
+			"aucune de ces réponses"
+		],
+		"answer": "http://localhost:3000/user/1234"
+	},
+	{
+		"id": 156,
+		"question": "D'après le code suivant, par quoi faut-il remplacer le ? (dans User.js) pour pouvoir récupérer l'id transmis par l'URL ?",
+		"code": "import { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport User from \"./pages/User\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/user/:id\" element={<User />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// User.js\nimport { useParams } from \"react-router-dom\";\nconst User = () => {\n  ?\n  return (\n    <div>\n      <h1>React</h1>\n      <p>{id}</p>\n    </div>\n  );\n}\nexport default User;",
+		"options": [
+			"const id = useParams();",
+			"useParams(id);",
+			"const [ id ] = useParams();",
+			"const { id } = useParams();",
+			"useParams() = { id }",
+			"aucune de ces réponses"
+		],
+		"answer": "const { id } = useParams();"
+	},
+
+	{
+		"id": 157,
+		"question": "Qu'est-ce qu'un cookie dans un navigateur ?",
+		"options": [
+			"Un fichier permettant d'utiliser de la navigation dans un site Web.",
+			"Un fichier, stocké dans l'ordinateur de l'utilisateur, permettant de conserver des informations.",
+			"Un fichier permettant de sauvegarder, en base de données, les informations d'un utilisateur.",
+			"aucune de ces réponses"
+		],
+		"answer": "Un fichier, stocké dans l'ordinateur de l'utilisateur, permettant de conserver des informations."
+	},
+	{
+		"id": 158,
+		"question": "Dans le code suivant, par quoi peut-on remplacer \"?\" pour pouvoir enregistrer le token dans les cookies ?",
+		"options": [
+			"Cookies.get(\"token\", token);",
+			"Cookies.save(\"token\", token);",
+			"Cookies.set(\"token\", token);",
+			"Cookies.add(\"token\", token);",
+			"aucune de ces réponses"
+		],
+		"answer": "Cookies.set(\"token\", token);"
+	},
+	{
+		"id": 159,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour accéder à la valeur du cookie \"token\" ?",
+		"code": "import Cookies from \"js-cookie\";\nfunction App() {\n  const token = ?\n  return <div>My React app</div>;\n}\nexport default App;",
+		"options": [
+			"Cookies.get(\"token\");",
+			"Cookies.set(\"token\");",
+			"Cookies.get(\"token\", token);",
+			"Cookies.get(token);",
+			"Cookies.set(\"token\", token);",
+			"Cookies.set(token);",
+			"aucune de ces réponses"
+		],
+		"answer": "Cookies.get(\"token\");"
+	},
+	{
+		"id": 160,
+		"question": "Dans le code suivant, par quoi peut-on remplacer le ? pour pouvoir supprimer le cookie \"token\" au clic sur le bouton ?",
+		"options": [
+			"Cookies.remove(\"token\");",
+			"Cookies.delete(\"token\");",
+			"Cookies.erase(\"token\");",
+			"aucune de ces réponses"
+		],
+		"answer": "Cookies.remove(\"token\");"
+	},
+	{
+		"id": 161,
+		"question": "D'après le code suivant, si l'utilisateur clique sur le texte \"Go to home page\" (dans \"Offers.js\"), vers quelle page sera-t-il redirigé ?",
+		"code": "// App.js\nimport { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/home\" element={<Home />} />\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Offers.js\nimport { Link } from \"react-router-dom\";\nconst Offers = () => {\n  return (\n    <>\n      <h2>Offers page</h2>\n      <Link to=\"/home\">\n        <div>Go to home page</div>\n      </Link>\n    </>\n  );\n}\nexport default Offers;",
+		"options": [
+			"aucune page, il restera sur la page actuelle",
+			"vers la page \"Home\"",
+			"vers la page \"Users\"",
+			"aucune de ces réponses"
+		],
+		"answer": "vers la page \"Home\""
+	},
+	{
+		"id": 162,
+		"question": "D'après le code suivant, si l'utilisateur clique sur le texte \"Go to home page\" (dans \"Offers.js\"), vers quelle page sera-t-il redirigé ?",
+		"code": "// App.js\nimport { BrowserRouter as Router, Routes, Route } from \"react-router-dom\";\nimport Home from \"./pages/Home\";\nimport Offers from \"./pages/Offers\";\nimport Users from \"./pages/Users\";\nexport default function App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/home\" element={<Home />} />\n        <Route path=\"/offers\" element={<Offers />} />\n        <Route path=\"/users\" element={<Users />} />\n      </Routes>\n    </Router>\n  );\n}\n\n// Offers.js\nimport { Link } from \"react-router-dom\";\nconst Offers = () => {\n  return (\n    <>\n      <h2>Offers page</h2>\n      <Link to=\"/\">\n        <div>Go to home page</div>\n      </Link>\n    </>\n  );\n}\nexport default Offers;",
+		"options": [
+			"aucune page, il restera sur la page actuelle",
+			"vers la page \"Home\"",
+			"vers la page \"Users\"",
+			"vers la page \"Offers\"",
+			"aucune de ces réponses"
+		],
+		"answer": "aucune de ces réponses"
+	},
+	{
+		"id": 163,
+		"question": "D'après le code suivant, par quoi faut-il remplacer le ? (dans Login.js) pour que l'utilisateur soit redirigé automatiquement vers la page \"Home\" (après avoir cliqué sur le bouton et que le state \"token\" ait été mis à jour) ?",
+		"options": [
+			"navigation(\"/\")",
+			"go(\"/\")",
+			"vamos(\"/\")",
+			"goBack(\"/\")",
+			"navigate(\"/\")",
+			"aucune de ces réponses"
+		],
+		"answer": "navigate(\"/\")"
+	},
+	{
+		"id": 164,
+		"question": "Parmi les propositions de code suivantes (pour User.js), lesquelles permettent d'afficher \"Jean\" ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport User from \"./components/User\";\nfunction App() {\n  const user = {\n    username: \"Jean\",\n    email: \"jean@gmail.com\"\n  };\n  return (\n    <div>\n      <User {...user} />\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"const User = (props) => {\n  return <div>{props.username}</div>;\n}\nexport default User;",
+			"const User = ({ user }) => {\n  return <div>{user.username}</div>;\n}\nexport default User;",
+			"const User = ({ username }) => {\n  return <div>{props.username}</div>;\n}\nexport default User;",
+			"const User = ({ username }) => {\n  return <div>{username}</div>;\n}\nexport default User;",
+			"aucune de ces réponses"
+		],
+		"answer": [
+			"const User = (props) => {\n  return <div>{props.username}</div>;\n}\nexport default User;",
+			"const User = ({ username }) => {\n  return <div>{username}</div>;\n}\nexport default User;"
+		]
+	},
+	{
+		"id": 165,
+		"question": "Parmi les propositions de code suivantes (pour User.js), lesquelles permettent d'afficher \"Jean\" ? (plusieurs réponses possibles)",
+		"code": "// App.js\nimport User from \"./components/User\";\nfunction App() {\n  const user = {\n    username: \"Jean\",\n    email: \"jean@gmail.com\"\n  };\n  return (\n    <div>\n      <User user={user} />\n    </div>\n  );\n}\nexport default App;",
+		"options": [
+			"const User = (props) => {\n  const { user } = props;\n  return <div>{user.username}</div>;\n}\nexport default User;",
+			"const User = (props) => {\n  const { username } = props;\n  return <div>{username}</div>;\n}\nexport default User;",
+			"const User = ({ user }) => {\n  return <div>{user.username}</div>;\n}\nexport default User;",
+			"const User = ({ user }) => {\n  return <div>{props.user.username}</div>;\n}\nexport default User;",
+			"const User = ({ user }) => {\n  return <div>{username}</div>;\n}\nexport default User;",
+			"aucune de ces réponse"
+		],
+		"answer": [
+			"const User = (props) => {\n  const { user } = props;\n  return <div>{user.username}</div>;\n}\nexport default User;",
+			"const User = ({ user }) => {\n  return <div>{user.username}</div>;\n}\nexport default User;"
+		]
+	},
+	{
+		"id": 166,
+		"question": "Parmi les ingrédients suivants, lequel ne trouve-t-on pas dans une recette classique de cookies ?",
+		"options": [
+			"la farine",
+			"le beurre",
+			"le lait",
+			"des oeufs",
+			"du sucre",
+			"Je ne sais pas, je ne cuisine pas"
+		],
+		"answer": "le lait"
+	},
+
+	{
+		"id": 167,
+		"question": "En effectuant la commande git init, quel dossier est automatiquement créé dans le projet ?",
+		"options": [
+			".git",
+			".gitignore",
+			".github",
+			".init",
+			"aucune de ces réponses"
+		],
+		"answer": ".git"
+	},
+	{
+		"id": 168,
+		"question": "Qu'est-ce qu'un fichier \".gitignore\" sur GitHub ?",
+		"options": [
+			"un fichier créé automatiquement pour chaque nouveau repository sur GitHub",
+			"un fichier contenant la liste des fichiers à ignorer par git",
+			"un fichier contenant les données sensibles d'un repository sur GitHub",
+			"un fichier contenant la liste de toutes les modifications faites dans un repository sur GitHub",
+			"un fichier indispensable pour créer un repository GitHub",
+			"aucune de ces réponses"
+		],
+		"answer": "un fichier contenant la liste des fichiers à ignorer par git"
+	},
+	{
+		"id": 169,
+		"question": "Que permet de faire la commande git commit -m \"message\" ?",
+		"options": [
+			"enregistrer, en local, les modifications apportées à un projet",
+			"sélectionner tous les fichiers du projet",
+			"créer un nouveau repository sur GitHub",
+			"enregistrer, sur Github, les modifications apportées à un projet",
+			"aucune de ces réponses"
+		],
+		"answer": "enregistrer, en local, les modifications apportées à un projet"
+	},
+	{
+		"id": 170,
+		"question": "Quelle commande permet de savoir ce qui a été modifié dans le répertoire courant ?",
+		"options": [
+			"git pull",
+			"git add .",
+			"git status",
+			"git log",
+			"aucune de ces réponses"
+		],
+		"answer": "git status"
+	},
+	{
+		"id": 171,
+		"question": "Que permet de faire la commande git remote add origin URL ?",
+		"options": [
+			"sauvegarder les dossiers et fichiers du projet en local",
+			"sauvegarder les dossiers et fichiers du projet sur le dépôt distant",
+			"créer une liaison avec un dépôt distant",
+			"créer un dépôt distant",
+			"aucune de ces réponses"
+		],
+		"answer": "créer une liaison avec un dépôt distant"
+	},
+	{
+		"id": 172,
+		"question": "Une fois votre repository créé sur GitHub, quelles sont les commandes qu'il faudra forcément effectuer pour sauvegarder régulièrement les avancées du projet ?",
+		"options": [
+			"git add . / git commit -m \"votre message ici\" / git pull",
+			"git commit -m \"votre message ici\" / git push",
+			"git add . / git push",
+			"git add . / git commit -m \"votre message ici\" / git push",
+			"git commit -m \"votre message ici\" / git add . / git pull",
+			"git commit -m \"votre message ici\" / git push / git add .",
+			"git commit -m \"votre message ici\" / git add .",
+			"aucune de ces réponses"
+		],
+		"answer": "git add . / git commit -m \"votre message ici\" / git push"
+	},
+	{
+		"id": 173,
+		"question": "Que permet de faire la commande echo \"# my-repository\" >> README.md ?",
+		"options": [
+			"ajouter un fichier README.md dans le répertoire courant",
+			"savoir si un fichier README.md existe ou non dans le répertoire courant",
+			"ajouter un fichier README.md dans le repository GitHub",
+			"aucune de ces réponses"
+		],
+		"answer": "ajouter un fichier README.md dans le répertoire courant"
+	},
+	{
+		"id": 174,
+		"question": "Parmi les syntaxes suivantes, laquelle permet d'ajouter un titre dans un fichier README.md ? (format Markdown)",
+		"options": [
+			"$ BrightLight",
+			"§ BrightLight",
+			"& BrightLight",
+			"# BrightLight",
+			"* BrightLight",
+			"aucune de ces réponses"
+		],
+		"answer": "# BrightLight"
+	},
+	{
+		"id": 175,
+		"question": "Quelle commande permet de récupérer l'ensemble d'un projet GitHub ?",
+		"options": [
+			"git remote URL",
+			"git push URL",
+			"git clone URL",
+			"git add URL",
+			"aucune de ces réponses"
+		],
+		"answer": "git clone URL"
+	},
+	{
+		"id": 176,
+		"question": "Quelle commande doit-on utiliser pour un premier ajout du code d'un projet sur GitHub ?",
+		"options": [
+			"git push URL",
+			"git push -u origin main",
+			"git remote add",
+			"git pull",
+			"aucune de ces réponses"
+		],
+		"answer": "git push -u origin main"
+	},
+
+	{
+		"id": 177,
+		"question": "Qu'est-ce que Express ?",
+		"options": [
+			"Un package permettant d'effectuer des requêtes HTTP.",
+			"Un package permettant de créer des serveurs.",
+			"une base de données",
+			"Une extension VSCode permettant de se connecter à des serveurs.",
+			"Un package pour manipuler des bases de données.",
+			"aucune de ces réponses"
+		],
+		"answer": "Un package permettant de créer des serveurs."
+	},
+	{
+		"id": 178,
+		"question": "Parmi les adresses suivantes, laquelle permet d'accéder au serveur sur le réseau local ?",
+		"options": [
+			"htpp//:localhost:3000",
+			"htpp://localhost:3000",
+			"htpp/:localhost:3000",
+			"http//:localhost:3000",
+			"http://localhost:3000",
+			"http/:localhost:3000",
+			"aucune de ces réponses"
+		],
+		"answer": "http://localhost:3000"
+	},
+	{
+		"id": 179,
+		"question": "Que permet de créer le code suivant ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/\", (req, res) => {\n  res.json({message : \"Hi\"});\n});\napp.get(\"/hello\", (req, res) => {\n  res.json({message : \"Hello\"});\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"3 routes",
+			"3 routes et un serveur",
+			"1 serveur et 2 routes",
+			"2 serveurs et 2 routes",
+			"1 route et 1 serveur",
+			"2 serveurs et 1 route",
+			"aucune de ces réponses"
+		],
+		"answer": "1 serveur et 2 routes"
+	},
+	{
+		"id": 180,
+		"question": "Que permet de faire le code suivant :",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/\", (req, res) => {\n  res.json({message : \"Hi\"});\n});\napp.get(\"/hello\", (req, res) => {\n  res.json({message : \"Hello\"});\n});\napp.all(\"*\", function(req, res) {\n  res.json({message: \"all routes\"});\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"créer des routes supplémentaires",
+			"gérer les pages introuvables",
+			"envoyer un message d'erreur au terminal en cas de problème de route",
+			"créer un serveur de secours",
+			"bloquer l'accès aux autres routes",
+			"aucune de ces réponses"
+		],
+		"answer": "gérer les pages introuvables"
+	},
+	{
+		"id": 181,
+		"question": "Quel message affichera la route “/user” ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/home/login\", (req, res) => {\n  res.json({ message: \"Login page\" });\n});\napp.get(\"/home\", (req, res) => {\n  res.json({ message: \"Welcome\" });\n});\napp.get(\"/user/dashboard\", (req, res) => {\n  res.json({ message: \"Your dashboard\" });\n});\napp.get(\"/user\", (req, res) => {\n  res.json({ message: \"Your profile\" });\n});\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});",
+		"options": [
+			"\"Welcome\"",
+			"\"Login page\"",
+			"\"Your profile\"",
+			"\"Your dashboard\"",
+			"\"all routes\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Your profile\""
+	},
+	{
+		"id": 182,
+		"question": "Laquelle des syntaxes suivantes permet de passer des paramètres de type query à une route ?",
+		"options": [
+			"localhost:3000$name=Reacteur?city=Paris",
+			"localhost:3000/name=Reacteur&city=Paris",
+			"localhost:3000/name:Reacteur&city:Paris",
+			"localhost:3000&name=Reacteur?city=Paris",
+			"localhost:3000&name=Reacteur&city=Paris",
+			"localhost:3000?name=Reacteur&city=Paris",
+			"localhost:3000?name=Reacteur$city=Paris",
+			"aucune de ces réponses"
+		],
+		"answer": "localhost:3000?name=Reacteur&city=Paris"
+	},
+	{
+		"id": 183,
+		"question": "Dans le code suivant, par quoi faudrait-il remplacer le ? (dans le premier console.log) pour pouvoir afficher les valeurs des paramètres query passés à la route ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/home\", (req, res) => {\n  console.log(?);\n  res.json({ message: \"Welcome\" });\n});\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"req.query",
+			"req.res",
+			"query.req",
+			"res.query",
+			"res.req",
+			"query.res",
+			"aucune de ces réponses"
+		],
+		"answer": "req.query"
+	},
+	{
+		"id": 184,
+		"question": "D'après le code suivant, que renverra la route \"/home\" ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/home\", (req, res) => {\n  console.log(\"home\");\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"\"home\"",
+			"rien, la route chargera indéfiniment",
+			"un message d'erreur",
+			"un message indiquant que la route ne renvoie rien",
+			"aucune de ces réponses"
+		],
+		"answer": "rien, la route chargera indéfiniment"
+	},
+	{
+		"id": 185,
+		"question": "Dans le terminal, que permet de faire cette commande : npx nodemon index.js ?",
+		"options": [
+			"redémarrer le serveur toutes les minutes",
+			"redémarrer le serveur à chaque modification du fichier",
+			"arrêter le serveur",
+			"afficher les messages d'erreur",
+			"installer le package \"nodemon\"",
+			"aucune de ces réponses"
+		],
+		"answer": "redémarrer le serveur à chaque modification du fichier"
+	},
+	{
+		"id": 186,
+		"question": "Dans le code suivant, par quoi faudrait-il remplacer le ? (dans le console.log) pour pouvoir afficher les paramètres transmis avec la méthode HTTP POST ?",
+		"code": "const express = require(\"express\");\nconst formidableMiddleware = require(\"express-formidable\");\nconst app = express();\napp.use(formidableMiddleware());\napp.post(\"/add-student\", (req, res) => {\n  console.log(?);\n});\napp.listen(3000, () => {\n  console.log(\"Server started\");\n});",
+		"options": [
+			"res.query",
+			"req.query",
+			"res.params",
+			"req.params",
+			"res.fields",
+			"req.fields",
+			"aucune de ces réponses"
+		],
+		"answer": "req.fields"
+	},
+
+	{
+		"id": 187,
+		"question": "Quel message affichera la route \"http://localhost:3000/user\" ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/home/login\", (req, res) => {\n  res.json({ message: \"Login page\" });\n});\napp.get(\"/home\", (req, res) => {\n  res.json({ message: \"Welcome\" });\n});\napp.get(\"/user/dashboard\", (req, res) => {\n  res.json({ message: \"Your dashboard\" });\n});\napp.get(\"/user\", (req, res) => {\n  res.json({ message: \"Your profile\" });\n});\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"\"Login page\"",
+			"\"Welcome\"",
+			"\"Your dashboard\"",
+			"\"Your profile\"",
+			"\"all routes\"",
+			"\"Server has started\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Your profile\""
+	},
+	{
+		"id": 188,
+		"question": "Quel message affichera la route \"http://localhost:3000/login\" ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/home/login\", (req, res) => {\n  res.json({ message: \"Login page\" });\n});\napp.get(\"/home\", (req, res) => {\n  res.json({ message: \"Welcome\" });\n});\napp.get(\"/user/dashboard\", (req, res) => {\n  res.json({ message: \"Your dashboard\" });\n});\napp.get(\"/user\", (req, res) => {\n  res.json({ message: \"Your profile\" });\n});\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"\"Login page\"",
+			"\"Welcome\"",
+			"\"Your dashboard\"",
+			"\"Your profile\"",
+			"\"all routes\"",
+			"\"Server has started\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"all routes\""
+	},
+	{
+		"id": 189,
+		"question": "Qu'est-ce que express-formidable ?",
+		"options": [
+			"Un package permettant de créer des routes.",
+			"Un package permettant de créer un serveur.",
+			"Un package permettant de récupérer les paramètres de type Body transmis lors des requêtes HTTP.",
+			"Un package permettant de créer des bases de données.",
+			"Un package permettant de manipuler des bases de données.",
+			"aucune de ces réponses"
+		],
+		"answer": "Un package permettant de récupérer les paramètres de type Body transmis lors des requêtes HTTP."
+	},
+	{
+		"id": 190,
+		"question": "Qu'affichera le terminal ?",
+		"code": "console.log(\"A\");\nconsole.log(unknownVariable);\nconsole.log(\"B\");",
+		"options": [
+			"A, puis une erreur, puis B",
+			"A, puis B, puis une erreur",
+			"A, puis une erreur",
+			"une erreur",
+			"une erreur, puis A",
+			"une erreur, puis A, puis B",
+			"aucune de ces réponses"
+		],
+		"answer": "A, puis une erreur"
+	},
+	{
+		"id": 191,
+		"question": "Qu'affichera le terminal ?",
+		"code": "console.log(\"A\");\ntry {\n  console.log(unknownVariable);\n} catch (error) {\n  console.log(error.message);\n}\nconsole.log(\"B\");",
+		"options": [
+			"A, puis un message d'erreur",
+			"A, puis un message d'erreur, puis B",
+			"A, puis B, puis un message d'erreur",
+			"un message d'erreur",
+			"un message d'erreur, puis A",
+			"un message d'erreur, puis A, puis B",
+			"aucune de ces réponses"
+		],
+		"answer": "A, puis un message d'erreur, puis B"
+	},
+	{
+		"id": 192,
+		"question": "Que permet de faire un \"try catch\" ?",
+		"options": [
+			"interrompre l'exécution d'un programme dès qu'il y a une erreur",
+			"attendre qu'une partie du code s'exécute avant de passer à la suite",
+			"réagir lorsqu'une erreur a été déclenchée",
+			"se passer de callbacks",
+			"aucune de ces réponses"
+		],
+		"answer": "réagir lorsqu'une erreur a été déclenchée"
+	},
+	{
+		"id": 193,
+		"question": "Que permettent les instructions \"async await\" dans le code suivant ? (plusieurs réponses possibles)",
+		"code": "const getMovie = async () => {\n  try {\n    const response = await axios.get(\n      \"https://www.omdbapi.com/?apikey=c7678f53&t=interstellar\"\n    );\n    console.log(response.data);\n  } catch (error) {\n    console.error(error.message);\n  }\n};\ngetMovie();",
+		"options": [
+			"attendre la fin de la requête HTTP avant de poursuivre l'exécution du code",
+			"exécuter la requête HTTP avant d'appeler la fonction getMovie()",
+			"afficher des messages d'erreur en cas d'erreur dans l'exécution du code",
+			"se passer de callbacks",
+			"aucune de ces réponses"
+		],
+		"answer": [
+			"attendre la fin de la requête HTTP avant de poursuivre l'exécution du code",
+			"se passer de callbacks"
+		]
+	},
+	{
+		"id": 194,
+		"question": "Qu'est-ce que Mongoose ?",
+		"options": [
+			"Un package permettant de créer des routes.",
+			"Un package permettant de créer un serveur.",
+			"Un package permettant de récupérer les paramètres transmis lors des requêtes HTTP.",
+			"Un package permettant de manipuler des bases de données MongoDB.",
+			"aucune de ces réponses"
+		],
+		"answer": "Un package permettant de manipuler des bases de données MongoDB."
+	},
+	{
+		"id": 195,
+		"question": "Dans cet extrait de code, à quoi correspond \"name\" ?",
+		"code": "mongoose.connect(\"mongodb://localhost:27017/name\");",
+		"options": [
+			"au nom d'un modèle",
+			"au nom d'une base de données",
+			"au nom d'une collection",
+			"aucune de ces réponses"
+		],
+		"answer": "au nom d'une base de données"
+	},
+	{
+		"id": 196,
+		"question": "Dans cet extrait de code, à quoi correspond \"User\" placé entre guillemets ?",
+		"code": "const User = mongoose.model(\"User\", {\n  name: {\n    type: String,\n    default: \"\"\n  },\n  age: {\n    type: Number\n  }\n});",
+		"options": [
+			"au nom d'un modèle",
+			"au nom d'une base de données",
+			"au nom d'une collection",
+			"aucune de ces réponses"
+		],
+		"answer": "au nom d'une collection"
+	},
+
+	{
+		"id": 197,
+		"question": "Dans l'extrait de code suivant, par quelle fonction faut-il remplacer le ? pour trouver tous les documents de la collection Drugs en base de données ?",
+		"code": "app.get(\"/\", async (req, res) => {\n  try {\n    const drugs = await Drug.?;\n    res.json(drugs);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"Find( )",
+			"findOne( )",
+			"FindById( )",
+			"find( )",
+			"FindOne( )",
+			"findById( )",
+			"aucune de ces réponses"
+		],
+		"answer": "find( )"
+	},
+	{
+		"id": 198,
+		"question": "Parmi les fonction suivantes, lesquelles permettent de trouver un document en base de données à partir de son id ? (plusieurs réponses possibles)",
+		"options": [
+			"FindOne( )",
+			"FindById( )",
+			"findById( )",
+			"Find( )",
+			"find( )",
+			"findOne( )",
+			"aucune de ces réponses"
+		],
+		"answer": ["FindById( )", "findById( )"]
+	},
+	{
+		"id": 199,
+		"question": "Dans l'extrait de code suivant, par quoi faut-il remplacer le ? pour pouvoir créer un nouveau document ?",
+		"code": "const Drug = mongoose.model(\"Drug\", { name: String });\napp.post(\"/create\", async (req, res) => {\n  try {\n    const newDrug = ?({ name: req.fields.name });\n    await newDrug.save();\n    return res.json({ message: \"Drug created\" });\n  } catch (error) {\n    return res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"NewDrug",
+			"newDrug",
+			"newdrug",
+			"new \"Drug\"",
+			"New \"Drug\"",
+			"new \"drug\"",
+			"New Drug",
+			"new Drug",
+			"new drug",
+			"aucune de ces réponses"
+		],
+		"answer": "new Drug"
+	},
+	{
+		"id": 200,
+		"question": "Que permettent de faire les références dans MongoDB ?",
+		"options": [
+			"lier une base de données avec une autre base de données",
+			"lier une collection avec une autre collection",
+			"lier une base de données avec une collection",
+			"lier une collection avec un document",
+			"lier un document avec un autre document",
+			"aucune de ces réponses"
+		],
+		"answer": "lier un document avec un autre document"
+	},
+	{
+		"id": 201,
+		"question": "Que permet de faire la fonction populate() ?",
+		"options": [
+			"sauvegarder un document en base de données",
+			"trouver un document à partir d'un de ses attributs",
+			"obtenir les données d'une référence",
+			"créer un nouvel id à un document",
+			"aucune de ces réponses"
+		],
+		"answer": "obtenir les données d'une référence"
+	},
+	{
+		"id": 202,
+		"question": "Qu'est-ce que express.Router() ?",
+		"options": [
+			"Un package permettant d'organiser des routes dans un projet.",
+			"Un package permettant de manipuler des bases de données.",
+			"Un package permettant de créer des modèles.",
+			"Un package permettant de créer des références.",
+			"aucune de ces réponses"
+		],
+		"answer": "Un package permettant d'organiser des routes dans un projet."
+	},
+	{
+		"id": 203,
+		"question": "Dans l'extrait de code suivant, par quoi faut-il remplacer le ? pour sauvegarder, en base de données, les modifications apportées à un document ?",
+		"code": "app.post(\"/update\", async (req, res) => {\n  try {\n    const drug = await Drug.findOne({ name: req.fields.name });\n    drug.name = req.fields.name;\n    await ?;\n    res.json({ message: \"Drug updated\" });\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"save(Drug)",
+			"save(drug)",
+			"drug save()",
+			"Drug save()",
+			"drug.save( )",
+			"Drug.save( )",
+			"aucune de ces réponses"
+		],
+		"answer": "drug.save( )"
+	},
+	{
+		"id": 204,
+		"question": "Quel message affichera la route \"http://localhost:3000/create\" ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.get(\"/event/create\", (req, res) => {\n  res.json({ message: \"Create an event\" });\n});\napp.get(\"/events\", (req, res) => {\n  res.json({ message: \"All the events\" });\n});\napp.get(\"/tickets/book\", (req, res) => {\n  res.json({ message: \"Book your events\" });\n});\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"\"Create an event\"",
+			"\"All the events\"",
+			"\"Book your events\"",
+			"\"all routes\"",
+			"\"Server has started\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"all routes\""
+	},
+	{
+		"id": 205,
+		"question": "Quel message affichera la route \"http://localhost:3000/tickets/book\" ?",
+		"code": "const express = require(\"express\");\nconst app = express();\napp.all(\"*\", function(req, res) {\n  res.json({ message: \"all routes\" });\n});\napp.get(\"/event/create\", (req, res) => {\n  res.json({ message: \"Create an event\" });\n});\napp.get(\"/events\", (req, res) => {\n  res.json({ message: \"All the events\" });\n});\napp.get(\"/tickets/book\", (req, res) => {\n  res.json({ message: \"Book your events\" });\n});\napp.listen(3000, () => {\n  console.log(\"Server has started\");\n});",
+		"options": [
+			"\"Create an event\"",
+			"\"All the events\"",
+			"\"Book your events\"",
+			"\"all routes\"",
+			"\"Server has started\"",
+			"aucune de ces réponses"
+		],
+		"answer": "\"all routes\""
+	},
+	{
+		"id": 206,
+		"question": "Quel sera le nom de la collection User qui sera enregistré dans la base de données MongoDB ?",
+		"code": "const User = mongoose.model(\"User\", {\n  name: {\n    type: String,\n    default: \"\"\n  },\n  age: {\n    type: Number\n  }\n});",
+		"options": ["User", "Users", "user", "users", "aucune de ces réponses"],
+		"answer": "users"
+	},
+
+	{
+		"id": 207,
+		"question": "Qu'est-ce que uid2 ?",
+		"options": [
+			"un package pour générer des chaînes de caractères aléatoirement",
+			"un package pour encrypter des données",
+			"un package pour enregistrer des mots de passe en base de données",
+			"aucune de ces réponses"
+		],
+		"answer": "un package pour générer des chaînes de caractères aléatoirement"
+	},
+	{
+		"id": 208,
+		"question": "Qu'est-ce que crypto-js ?",
+		"options": [
+			"un package pour enregistrer des mots de passe en base de données",
+			"un package pour encrypter des données",
+			"un package pour générer des chaînes de caractères aléatoirement",
+			"aucune de ces réponses"
+		],
+		"answer": "un package pour encrypter des données"
+	},
+	{
+		"id": 209,
+		"question": "Quels noms donne-t-on aux variables à générer pour sécuriser les mots de passe en base de données ?",
+		"options": [
+			"salt et pepper",
+			"hash et salt",
+			"hash, salt et token",
+			"hash et token",
+			"salt et token",
+			"steak haché",
+			"aucune de ces réponses"
+		],
+		"answer": "hash et salt"
+	},
+	{
+		"id": 210,
+		"question": "Laquelle des syntaxes suivantes permet de passer des paramètres de type params à la route \"/user\" ? (on souhaite passer \"toto\" et \"42\")",
+		"options": [
+			"http://localhost:3000/user/toto&42",
+			"http://localhost:3000/user?toto&42",
+			"http://localhost:3000/user?name=toto&age=42",
+			"http://localhost:3000/user/toto/42",
+			"http://localhost:3000/user/toto?42",
+			"aucune de ces réponses"
+		],
+		"answer": "http://localhost:3000/user/toto/42"
+	},
+	{
+		"id": 211,
+		"question": "Dans le code suivant, que faut-il ajouter à la route \"/user\" pour pouvoir récupérer les valeurs des paramètres de type params ? (on les appellera \"name\" et \"age\")",
+		"code": "router.get(\"/user\", async (req, res) => {\n  try {\n    res.json({ message: \"User route\" });\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"/:name/:age",
+			"/:name:age",
+			"/name&age",
+			"/name/age",
+			":name/age",
+			"aucune de ces réponses"
+		],
+		"answer": "/:name/:age"
+	},
+	{
+		"id": 212,
+		"question": "D'après le code suivant, par quoi faut-il remplacer le ? pour trouver le document correspondant à l'id en BDD ?",
+		"code": "router.get(\"/post\", async (req, res) => {\n  console.log(req.query); // affiche { id: '58ff73cc1765a998979a338d' }\n  try {\n    const post = await Post.findById(?);\n    res.json(post);\n  } catch (error) {\n    res.status(400).json({ message: error.message });\n  }\n});",
+		"options": [
+			"id",
+			"req.query",
+			"req.query.id",
+			"{id}",
+			"{ req.query }",
+			"{ req.query.id }",
+			"aucune de ces réponses"
+		],
+		"answer": "req.query.id"
+	},
+	{
+		"id": 213,
+		"question": "Dans l'extrait de code suivant, que permet de trouver la méthode findOne() ?",
+		"code": "const user = await User.findOne({ name: req.fields.name });",
+		"options": [
+			"tous les documents enregistrés en base de données ayant comme attribut le \"name\" recherché",
+			"le premier document enregistré en base de données ayant comme attribut le \"name\" recherché",
+			"tous les documents enregistrés en base de données ayant un attribut \"name\"",
+			"un document, au hasard, enregistré en base de données ayant comme attribut le \"name\" recherché",
+			"aucune de ces réponses"
+		],
+		"answer": "le premier document enregistré en base de données ayant comme attribut le \"name\" recherché"
+	},
+	{
+		"id": 214,
+		"question": "Dans l'extrait de code suivant, par quoi faut-il remplacer le ? pour pouvoir afficher les données de la référence \"author\" ? (les documents \"post\" sont liés à un \"author\")",
+		"code": "router.get(\"/post\", async (req, res) => {\n  try {\n    const post = await Post.find()?;\n    res.json(post);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			".populate( )",
+			".Populate( )",
+			".populate(author)",
+			".Populate(author)",
+			".populate(\"author\")",
+			".Populate(\"author\")",
+			"aucune de ces réponses"
+		],
+		"answer": ".populate(\"author\")"
+	},
+	{
+		"id": 215,
+		"question": "Dans l'extrait de code suivant, on souhaite ajouter un \"user\" en base de données si l'email renseigné n'y est pas déjà présent. Par quoi faut-il remplacer le ? pour ce faire ?",
+		"code": "router.post(\"/create/user\", async (req, res) => {\n  try {\n    const user = await User.findOne({ email : req.fields.email});\n    if (?) {\n      const newUser = new User({\n        name: req.fields.name\n      });\n      await newUser.save();\n      res.json({ message: \"User added in DB\" });\n    } else {\n      res.json({ message: \"User already in DB\" });\n    }\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"req.fields.email",
+			"!user",
+			"!req.fields.email",
+			"user",
+			"User",
+			"aucune de ces réponses"
+		],
+		"answer": "!user"
+	},
+	{
+		"id": 216,
+		"question": "Dans l'extrait de code suivant, on souhaite ajouter un \"user\" en base de données si l'email renseigné n'y est pas déjà présent. Par quoi faut-il remplacer le ? pour ce faire ?",
+		"code": "router.post(\"/create/user\", async (req, res) => {\n  try {\n    const user = await User.findOne({ email: req.fields.email });\n    if (?) {\n      res.json({ message: \"User already in DB\" });\n    } else {\n      const newUser = new User({\n        name: req.fields.name\n      });\n      await newUser.save();\n      res.json({ message: \"User added in DB\" });\n    }\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});",
+		"options": [
+			"req.fields.email",
+			"!user",
+			"!req.fields.email",
+			"User",
+			"user",
+			"aucune de ces réponses"
+		],
+		"answer": "user"
+	},
+
+	{
+		"id": 217,
+		"question": "Qu'est-ce qu'un token en base de données ? (plusieurs réponses possibles)",
+		"options": [
+			"une chaîne de caractères aléatoires",
+			"une chaîne de caractères utilisée pour protéger les mots de passe en base de données",
+			"une chaîne de caractères générée à partir d'un hash et d'un salt",
+			"une chaîne de caractères permettant d'authentifier un utilisateur enregistré en base de données",
+			"une chaîne de caractères créée automatiquement par MongoDB",
+			"aucune de ces réponses"
+		],
+		"answer": [
+			"une chaîne de caractères aléatoires",
+			"une chaîne de caractères permettant d'authentifier un utilisateur enregistré en base de données"
+		]
+	},
+	{
+		"id": 218,
+		"question": "Que permet de faire cet extrait de code ?",
+		"code": "const token = uid2(64);",
+		"options": [
+			"générer une variable token de longueur aléatoire",
+			"générer une variable token de 64 lettres et chiffres aléatoires",
+			"générer une variable token encryptée",
+			"générer une variable token encryptée de 64 caractères aléatoires",
+			"aucune de ces réponses"
+		],
+		"answer": "générer une variable token de 64 lettres et chiffres aléatoires"
+	},
+	{
+		"id": 219,
+		"question": "D'après cet extrait de code, qu'est-ce qui pourra être lié en base de données ?",
+		"code": "const mongoose = require(\"mongoose\");\nconst Player = mongoose.model(\"Player\", {\n  email: String,\n  token: String,\n  hash: String,\n  salt: String,\n  team: {\n    type: mongoose.Schema.Types.ObjectId,\n    ref: \"Team\"\n  }\n});\nmodule.exports = Player;",
+		"options": [
+			"un \"player\" à une \"team\"",
+			"une \"team\" à un player\"",
+			"un \"player\" à un autre \"player\"",
+			"une \"team\" à une autre \"team\"",
+			"rien de pourra être lié",
+			"aucune de ces réponses"
+		],
+		"answer": "un \"player\" à une \"team\""
+	},
+	{
+		"id": 220,
+		"question": "D'après le code suivant, que retournera la route \"/players\" ?",
+		"code": "// player.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Player = require(\"../models/Player\");\nrouter.get(\"/players\", async (req, res) => {\n  try {\n    const players = await Player.find().populate(\"player\");\n    res.json(players);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Player.js\nconst mongoose = require(\"mongoose\");\nconst Player = mongoose.model(\"Player\", {\n  email: String,\n  token: String,\n  hash: String,\n  salt: String,\n  team: {\n    type: mongoose.Schema.Types.ObjectId,\n    ref: \"Team\",\n  },\n});\nmodule.exports = Player;\n\n// Team.js\nconst mongoose = require(\"mongoose\");\nconst Team = mongoose.model(\"Team\", {\n  name: String,\n  color: String,\n});\nmodule.exports = Team;",
+		"options": [
+			"Tous les joueurs, sans information sur l'équipe liée à chaque joueur (ni son id, ni autre)",
+			"Tous les joueurs, avec comme seule information sur l'équipe liée à chaque joueur, son id",
+			"Tous les joueurs, avec toutes les informations sur l'équipe liée à chaque joueur",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les joueurs, sans information sur l'équipe liée à chaque joueur (ni son id, ni autre)"
+	},
+	{
+		"id": 221,
+		"question": "D'après cet extrait de code, par quoi faut-il remplacer le ? dans le console.log pour visualiser le Bearer Token envoyé à la route ?",
+		"code": "router.post(\"/offer/publish\", async (req, res) => {\n  console.log(?);\n  res.json({ message: \"Token received\" });\n});",
+		"options": [
+			"req.params.token",
+			"req.authorization",
+			"req.authorization.token",
+			"req.headers.authorization",
+			"aucune de ces réponses"
+		],
+		"answer": "req.headers.authorization"
+	},
+	{
+		"id": 222,
+		"question": "Que permet de faire la fonction \"next()\" dans la fonction \"isAuthenticated\" ?",
+		"code": "const isAuthenticated = async (req, res, next) => {\n  if (req.headers.authorization) {\n    const user = await User.findOne({\n      token: req.headers.authorization.replace(\"Bearer \", \"\")\n    });\n    if (!user) {\n      return res.status(401).json({ error: \"Unauthorized\" });\n    } else {\n      req.user = user;\n      return next();\n    }\n  } else {\n    return res.status(401).json({ error: \"Unauthorized\" });\n  }\n};\n\n// Code de la route utilisant la fonction \"isAuthenticated\" :\nrouter.post(\"/offer/publish\", isAuthenticated, async (req, res) => {\n  try {\n    const offer = new Offer({\n      title: req.fields.title\n    });\n    await offer.save();\n    res.json({\n      message: \"Offer added in DB\"\n    });\n  } catch (error) {\n    res.json({ message: error.message });\n  }\n});",
+		"options": [
+			"modifier le \"req\" d'une route",
+			"passer à la suite du code dans la route où la fonction est utilisée",
+			"empêcher un utilisateur de s'authentifier",
+			"permettre à un utilisateur de s'authentifier",
+			"aucune de ces réponses"
+		],
+		"answer": "passer à la suite du code dans la route où la fonction est utilisée"
+	},
+	{
+		"id": 223,
+		"question": "Que permet de faire cette ligne : req.user = user; dans l'extrait de code suivant ?",
+		"code": "const isAuthenticated = async (req, res, next) => {\n  if (req.headers.authorization) {\n    const user = await User.findOne({\n      token: req.headers.authorization.replace(\"Bearer \", \"\")\n    });\n    if (!user) {\n      return res.status(401).json({ error: \"Unauthorized\" });\n    } else {\n      req.user = user;\n      return next();\n    }\n  } else {\n    return res.status(401).json({ error: \"Unauthorized\" });\n  }\n};",
+		"options": [
+			"Elle permet de créer un nouvel utilisateur en base de données.",
+			"Elle permet de s'assurer qu'un utilisateur est bien présent en base de données.",
+			"Elle permet d'ajouter une clé à \"req\" contenant une autorisation de connexion.",
+			"Elle permet d'ajouter une clé à \"req\" contenant les informations de l'utilisateur.",
+			"aucune de ces réponses"
+		],
+		"answer": "Elle permet d'ajouter une clé à \"req\" contenant les informations de l'utilisateur."
+	},
+	{
+		"id": 224,
+		"question": "Quel(s) message(s) sera/seront envoyé(s) si aucun token n'a été envoyé à la route ?",
+		"code": "const isAuthenticated = async (req, res, next) => {\n  if (req.headers.authorization) {\n    const user = await User.findOne({\n      token: req.headers.authorization.replace(\"Bearer \", \"\")\n    });\n    if (!user) {\n      return res.status(401).json({ error: \"Message 1\" });\n    } else {\n      req.user = user;\n      return next();\n    }\n  } else {\n    return res.status(401).json({ error: \"Message 2\" });\n  }\n};",
+		"options": [
+			"\"Missing token\"",
+			"\"Message 1\"",
+			"\"Message 2\"",
+			"\"Message 1\" et \"Message 2\"",
+			"aucun message ne sera envoyé",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Message 2\""
+	},
+	{
+		"id": 225,
+		"question": "Quel(s) message(s) sera/seront envoyé(s) si le token reçu n'existe pas en base de données ? (on suppose ici que le token est présent dans \"req.headers.authorization\")",
+		"code": "const isAuthenticated = async (req, res, next) => {\n  if (req.headers.authorization) {\n    const user = await User.findOne({\n      token: req.headers.authorization.replace(\"Bearer \", \"\")\n    });\n    if (!user) {\n      return res.status(401).json({ error: \"Message 1\" });\n    } else {\n      req.user = user;\n      return next();\n    }\n  } else {\n    return res.status(401).json({ error: \"Message 2\" });\n  }\n};",
+		"options": [
+			"\"Bearer \"",
+			"\"Message 1\"",
+			"\"Message 2\"",
+			"\"Message 1\" et \"Message 2\"",
+			"aucun message ne sera envoyé",
+			"aucune de ces réponses"
+		],
+		"answer": "\"Message 1\""
+	},
+	{
+		"id": 226,
+		"question": "D'après cet extrait de code, par quoi faut-il remplacer le ? dans le console.log pour accéder aux fichiers envoyés à la route ?",
+		"code": "router.post(\"/offer/publish\", async (req, res) => {\n  console.log(?);\n  res.json({ message: \"Files received\" });\n});",
+		"options": [
+			"req.files",
+			"req.query.files",
+			"req.upload",
+			"req.fields.files",
+			"aucune de ces réponses"
+		],
+		"answer": "req.files"
+	},
+
+	{
+		"id": 227,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find({ quantity : 100 });\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"Tous les produits ayant une quantité inférieure à 100.",
+			"Tous les produits ayant une quantité égale à 100.",
+			"Tous les produits ayant une quantité supérieure à 100.",
+			"Aucune de ces réponses"
+		],
+		"answer": "Tous les produits ayant une quantité égale à 100."
+	},
+	{
+		"id": 228,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// products.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find({ price: { $gte: 100 } });\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"Tous les produits dont le prix est égal à 100.",
+			"Tous les produits dont la quantité est égale à 100.",
+			"Tous les produits dont le prix est inférieur ou égal à 100.",
+			"Tous les produits dont la quantité est inférieure ou égale à 100.",
+			"Tous les produits dont le prix est supérieur ou égal à 100.",
+			"Tous les produits dont la quantité est supérieure ou égale à 100.",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les produits dont le prix est supérieur ou égal à 100."
+	},
+	{
+		"id": 229,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find({ title: new RegExp(\"MacBook\", \"i\") });\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"Tous les produits ayant pour titre exact \"MacBook\" (casse prise en compte, pas d'autres caractères)",
+			"Tous les produits ayant pour titre exact \"macbook\" (casse ignorée, pas d'autres caractères)",
+			"Tous les produits ayant dans leur titre \"MacBook\" (casse prise en compte, autres caractères possibles)",
+			"Tous les produits ayant dans leur titre \"macbook\" (casse ignorée, autres caractères possibles)",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les produits ayant dans leur titre \"macbook\" (casse ignorée, autres caractères possibles)"
+	},
+	{
+		"id": 230,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find().sort({ title: \"desc\" });\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"Tous les produits ayant dans leur titre \"desc\"",
+			"Tous les produits triés de A à Z d'après leur titre",
+			"Tous les produits triés de Z à A d'après leur titre",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les produits triés de Z à A d'après leur titre"
+	},
+	{
+		"id": 231,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find().sort({ quantity: 1 });\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"Tous les produits dont la quantité est égale à 1.",
+			"Tous les produits dont la quantité est égale à 1, triés de A à Z selon leur titre.",
+			"Tous les produits dont la quantité est égale à 1, triés de Z à A selon leur titre.",
+			"Tous les produits, triés par quantité, de la plus petite à la plus grande quantité.",
+			"Tous les produits, triés par quantité, de la plus grande à la plus petite quantité.",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les produits, triés par quantité, de la plus petite à la plus grande quantité."
+	},
+	{
+		"id": 232,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find().limit(10);\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"les 10 premiers produits trouvés",
+			"les 10 derniers produits trouvés",
+			"10 produits aléatoires",
+			"Tous les produits, sauf les 10 premiers",
+			"Tous les produits, sauf les 10 derniers",
+			"aucune de ces réponses"
+		],
+		"answer": "les 10 premiers produits trouvés"
+	},
+	{
+		"id": 233,
+		"question": "D'après le code suivant, que retournera la route \"/products\" ?",
+		"code": "// product.js\nconst express = require(\"express\");\nconst router = express.Router();\nconst Product = require(\"../models/Product\");\nrouter.get(\"/products\", async (req, res) => {\n  try {\n    const products = await Product.find().skip(10);\n    res.json(products);\n  } catch (error) {\n    res.status(400).json({ error: error.message });\n  }\n});\nmodule.exports = router;\n\n// Product.js\nconst mongoose = require(\"mongoose\");\nconst Product = mongoose.model(\"Product\", {\n  title: String,\n  price: Number,\n  quantity : Number,\n  description : String\n});\nmodule.exports = Product;",
+		"options": [
+			"10 produits aléatoires",
+			"les 10 premiers produits",
+			"Tous les produits, sauf les 10 premiers",
+			"les 10 derniers produits",
+			"Tous les produits, sauf les 10 derniers",
+			"aucune de ces réponses"
+		],
+		"answer": "Tous les produits, sauf les 10 premiers"
+	},
+	{
+		"id": 234,
+		"question": "D'après le code suivant, qu'affichera le terminal ?",
+		"code": "const date = new Date();\nconsole.log(date);",
+		"options": [
+			"un objet de ce type : 2020-04-17T09:30:00.947Z",
+			"une chaîne de caractères de ce type : \"April 17, 2020 09:30:00\"",
+			"une chaîne de caractères de ce type : \"Fri Apr 17 2020 09:30:00 GMT+0200\"",
+			"aucune de ces réponses"
+		],
+		"answer": "un objet de ce type : 2020-04-17T09:30:00.947Z"
+	},
+	{
+		"id": 235,
+		"question": "Quelle méthode permet d'obtenir le nombre de millisecondes écoulées depuis le 1 janvier 1970, 00:00:00 UTC, au moment de son utilisation ?",
+		"options": [
+			"Date.millisecondes( )",
+			"Date.now( )",
+			"Date.moment( )",
+			"Date.time( )",
+			"aucune de ces réponses"
+		],
+		"answer": "Date.now( )"
+	},
+	{
+		"id": 236,
+		"question": "D'après le code suivant, qu'affichera le console.log ?",
+		"code": "const name = \"La formation fullStack 100% JavaScript\";\nconst reg = new RegExp(/0/g);\nconst result = name.replace(reg, \"*\");\nconsole.log(result);",
+		"options": [
+			"La formation fullStack 1% JavaScript",
+			"La formation fullStack 1*0% JavaScript",
+			"La formation fullStack 1**% JavaScript",
+			"** ********* ********* *00* **********",
+			"** ********* ********* *0** **********",
+			"aucune de ces réponses"
+		],
+		"answer": "La formation fullStack 1**% JavaScript"
+	}
 ]
